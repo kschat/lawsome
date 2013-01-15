@@ -8,7 +8,7 @@ $this->pageTitle=Yii::app()->name;
     'heading'=>'Welcome to '.CHtml::encode(Yii::app()->name),
 )); ?>
 
-<p>Congratulations! You have successfully created your Yii application.</p>
+<p>GenAssem is a way to add annotation to legal documentation.</p>
 
 <?php $this->endWidget(); ?>
 

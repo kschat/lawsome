@@ -227,3 +227,55 @@ div.search-form
 {
 	background: #80CFFF;
 }
+
+.document-main-container {
+	min-height: 100%;
+}
+
+.document-container {
+}
+
+.document {
+	width: 100%;
+	border: 1px solid black;
+
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+
+	padding: 18px;
+}
+
+.annotation-list-container {
+	position: fixed;
+	width: 440px;
+	background-color: whiteSmoke;
+	
+	-moz-border-radius: 5px;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+
+	padding: 4px;
+}
+
+.annotation-container {
+	position: relative;
+	overflow: hidden;
+	padding: 5px;
+	overflow: hidden;
+}
+
+.annotation-body p {
+	display: block;
+	line-height: 1;
+}
+
+.annotation-user-image {
+	padding-right: 5px;
+	width: 60px;
+	height: 60px;
+	margin-left: 5px;
+}
+
+.new-annotation-text {
+	width: 420px;
+}

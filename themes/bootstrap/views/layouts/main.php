@@ -6,7 +6,7 @@
 	<meta name="language" content="en" />
 
     <link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->theme->baseUrl; ?>/css/styles.css" />
-
+    <?php Yii::app()->clientScript->registerCssFile(Yii::app()->baseUrl.'/css/main.css'); ?>
 	<title><?php echo CHtml::encode($this->pageTitle); ?></title>
 
 	<?php Yii::app()->bootstrap->register(); ?>
@@ -21,6 +21,7 @@
             'class'=>'bootstrap.widgets.TbMenu',
             'items'=>array(
                 array('label'=>'Home', 'url'=>array('/site/index')),
+                array('label'=>'Documents', 'url'=>array('documents/index')),
                 array('label'=>'About', 'url'=>array('/site/page', 'view'=>'about')),
                 array('label'=>'Contact', 'url'=>array('/site/contact')),
                 array('label'=>'Login', 'url'=>array('/site/login'), 'visible'=>Yii::app()->user->isGuest),
@@ -41,7 +42,7 @@
 ));
 ?>
 
-<div class="container" id="page">
+<div class="container-fluid" id="page">
 
 	<?php if(isset($this->breadcrumbs)):?>
 		<?php $this->widget('bootstrap.widgets.TbBreadcrumbs', array(
