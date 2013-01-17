@@ -8,13 +8,17 @@ define([
 	'models/annotation/annotationModel'
 ], function($, _, Backbone, DocumentView, DocumentModel, AnnotationView, AnnotationModel) {
 	var AppRouter = Backbone.Router.extend({
+		initialize: 		function(options) {
+			this.vent = options.eventAggregator;
+		},
 		routes: {
 			'documents/(:id)': 	'documentsAction',
 			//'*actions': 	'defaultAction'
 		},
 		documentsAction: 	function(id) {
 			if(typeof id === 'undefined') { id = 1; }
-			var annotationView = new AnnotationView( { model: new AnnotationModel()} );
+			var documentView = new DocumentView( {model: new DocumentModel({selectedText: 'preview'}), vent: this.vent });
+			var annotationView = new AnnotationView( { model: new AnnotationModel(), vent: this.vent } );
 		},
 		defaultAction: 	function(action) {
 			var documentView = new DocumentView( { model:  new DocumentModel( {selectedText : 'selected text'} )});
@@ -22,8 +26,8 @@ define([
 		}
 	});
 
-	var initialize = function() {
-		var appRouter = new AppRouter;
+	var initialize = function(ea) {
+		var appRouter = new AppRouter({ eventAggregator: ea });
 
 		appRouter.on('defaultAction', function() {
 			console.log('defaultAction');

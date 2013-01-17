@@ -3,9 +3,8 @@ define([
 	'underscore',
 	'backbone'
 ], function($, _, Backbone) {
-	var AddAnnotationModel = Backbone.Model.extend({
+	var AnnotationModel = Backbone.Model.extend({
 		defaults: {
-			preview: 		'preview',
 			title: 			'',
 			annotation: 	'Enter annotation here'
 		},
@@ -13,5 +12,5 @@ define([
 		url: 	'/documents/'
 	});
 
-	return AddAnnotationModel;
+	return AnnotationModel;
 });

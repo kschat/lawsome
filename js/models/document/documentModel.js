@@ -28,12 +28,14 @@ define([
 		},
 
 		updateSelectedText: 	function(e) {
-			var selText = this.getHighlightedText(),
-				targetElem = e.target.tagName.toLowerCase();
+			var selText = this.getHighlightedText();
 
-			if(selText && targetElem == 'div') {
+			if(selText && selText.toString().length != 0) {
 				this.attributes.selectedText = selText;
+				return true;
 			}
+
+			return false;
 		}
 	});
 

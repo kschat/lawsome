@@ -5,7 +5,8 @@ define([
 	'router'
 ], function($, _, Backbone, Router) {
 	var initialize = function() {
-		Router.initialize();
+		var eventAggregator = _.extend({}, Backbone.Events);
+		Router.initialize(eventAggregator);
 	}
 
 	return {

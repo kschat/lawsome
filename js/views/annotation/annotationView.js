@@ -3,28 +3,28 @@ define([
 	'underscore',
 	'backbone',
 	'text!templates/annotation/annotationTemplate.html'
-], function($, _, Backbone, DocumentTemplate) {
-	var DocumentView = Backbone.View.extend({
-		el: 			$('.annotation-container'),
-
-		events: 		{
-			'mouseup .document': 	'updatePreview'
-		},		
-
+], function($, _, Backbone, AnnotationTemplate) {
+	var AnnotationView = Backbone.View.extend({
 		initialize: 	function() {
+			_.bindAll(this, 'updatePreview');
+			this.options.vent.bind('updatePreview', this.updatePreview);
+
 			this.render();
 		},
 
+		el: 			$('.annotation-container'),
+
 		render: 		function() {
-			var template = _.template(DocumentTemplate, {preview: this.model.get('preview'), annotation: this.model.get('annotation')});
+			var template = _.template(AnnotationTemplate, {preview: '', annotation: this.model.get('annotation')});
 			this.$el.html(template);
+
 			return this;
 		},
 
-		updatePreview: 	function(e) {
-			//this.model.preview = 
+		updatePreview: 	function(model) {
+			this.$el.find('#selected-preview').text(model.attributes.selectedText);
 		}
 	});
 
-	return DocumentView;
+	return AnnotationView;
 });
