@@ -43,6 +43,8 @@ return array(
 			'caseSensitive' => false,
 			'rules'=>array(
 				''=>'site/index',
+				'documents/<id:\d+>'=>'documents/index',
+				'<controller>' => '<controller>/index',
 				'<action>' => 'site/<action>',
 				'<controller:\w+>/<id:\d+>'=>'<controller>/view',
 				'<controller:\w+>/<action:\w+>/<id:\d+>'=>'<controller>/<action>',

@@ -46,17 +46,6 @@ class DocumentsController extends Controller
 	}
 
 	/**
-	 * Displays a particular model.
-	 * @param integer $id the ID of the model to be displayed
-	 */
-	public function actionView($id)
-	{
-		$this->render('view',array(
-			'model'=>$this->loadModel($id),
-		));
-	}
-
-	/**
 	 * Creates a new model.
 	 * If creation is successful, the browser will be redirected to the 'view' page.
 	 */
@@ -120,11 +109,11 @@ class DocumentsController extends Controller
 	/**
 	 * Lists all models.
 	 */
-	public function actionIndex()
+	public function actionIndex($id = 1)
 	{
 		$dataProvider=new CActiveDataProvider('Documents');
 		$this->render('index',array(
-			'dataProvider'=>$dataProvider,
+			'model'=>$this->loadModel($id),
 		));
 	}
 

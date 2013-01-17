@@ -6,6 +6,7 @@
 	<meta name="language" content="en" />
 
     <link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->theme->baseUrl; ?>/css/styles.css" />
+    <script data-main="../js/bootstrap" src="../js/libs/require/require-2.1.2.min.js"></script>
     <?php Yii::app()->clientScript->registerCssFile(Yii::app()->baseUrl.'/css/main.css'); ?>
 	<title><?php echo CHtml::encode($this->pageTitle); ?></title>
 
