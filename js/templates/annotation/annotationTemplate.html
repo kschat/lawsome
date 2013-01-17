@@ -1,0 +1,17 @@
+<form id="add-annotation-form" action="" method="post">
+	<fieldset>
+		<legend>Add annotation</legend>
+
+		<label>Selected text</label>
+		<p class="input-xlarge uneditable-input" id="selected-preview"><%= preview %></p>
+
+		<label>Title</label>
+		<input type="text"  class="input-xlarge" placeholder="Title" />
+
+		<label>Annotation</label>
+		<textarea class="new-annotation-text" rows="4"><%= annotation %></textarea>
+		<br />
+
+		<button type="submit" class="btn btn-primary pull-right">Submit</button>
+	</fieldset>					
+</form>
