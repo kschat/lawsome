@@ -82,13 +82,3 @@ $this->menu=array(
 		</div>
 	</div>
 </div>
-
-<?php
-/*
-Yii::app()->getClientScript()->registerScriptFile(Yii::app()->baseUrl . '/js/libs/underscore/underscore-1.4.3.min.js'); 
-Yii::app()->getClientScript()->registerScriptFile(Yii::app()->baseUrl . '/js/libs/backbone/backbone-0.9.10.min.js'); 
-Yii::app()->getClientScript()->registerScriptFile(Yii::app()->baseUrl . '/js/models/document/document.js');
-Yii::app()->getClientScript()->registerScriptFile(Yii::app()->baseUrl . '/js/templates/document/documentTemplate.html');
-Yii::app()->getClientScript()->registerScriptFile(Yii::app()->baseUrl . '/js/views/document/documentView.js'); 
-*/
-?>
