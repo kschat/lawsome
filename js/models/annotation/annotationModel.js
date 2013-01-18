@@ -9,7 +9,7 @@ define([
 			annotation: 	'Enter annotation here'
 		},
 
-		url: 	'/documents/'
+		url: 	''
 	});
 
 	return AnnotationModel;

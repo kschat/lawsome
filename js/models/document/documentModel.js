@@ -1,17 +1,19 @@
 define([
 	'jquery',
 	'underscore',
-	'backbone'
-], function($, _, Backbone) {
+	'backbone',
+	'rangy'
+], function($, _, Backbone, rangy) {
 	var DocumentModel = Backbone.Model.extend({
 		defaults: {
 			selectedText: 	'',
 			documentText: 	''
 		},
 
-		url: 	'/documents/',
+		url: 	'/add/',
 
 		getHighlightedText: 	function() {
+			console.log(rangy);
 			var text = '';
 
 			if(window.getSelectedText) {

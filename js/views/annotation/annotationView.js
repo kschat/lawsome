@@ -14,6 +14,10 @@ define([
 
 		el: 			$('.annotation-container'),
 
+		events: 	{
+			'click #add-annotation': 	'addAnnotation'
+		},
+
 		render: 		function() {
 			var template = _.template(AnnotationTemplate, {preview: '', annotation: this.model.get('annotation')});
 			this.$el.html(template);
@@ -23,6 +27,10 @@ define([
 
 		updatePreview: 	function(model) {
 			this.$el.find('#selected-preview').text(model.attributes.selectedText);
+		},
+
+		addAnnotation: 	function() {
+			this.model.save({annotation: this.model.get('annotation')});
 		}
 	});
 

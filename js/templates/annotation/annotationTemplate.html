@@ -3,7 +3,7 @@
 		<legend>Add annotation</legend>
 
 		<label>Selected text</label>
-		<p class="input-xlarge uneditable-input" id="selected-preview"><%= preview %></p>
+		<div class="input-xlarge preview" id="selected-preview"><%= preview %></div>
 
 		<label>Title</label>
 		<input type="text"  class="input-xlarge" placeholder="Title" />
@@ -12,6 +12,6 @@
 		<textarea class="new-annotation-text" rows="4"><%= annotation %></textarea>
 		<br />
 
-		<button type="submit" class="btn btn-primary pull-right">Submit</button>
-	</fieldset>					
+		<button type="submit" class="btn btn-primary pull-right" id="add-annotation">Submit</button>
+	</fieldset>	
 </form>

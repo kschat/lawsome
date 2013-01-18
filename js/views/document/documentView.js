@@ -13,7 +13,9 @@ define([
 		el: 			$('#document-1'),
 
 		events: 		{
-			'mouseup .document': 	'textSelected'
+			'mouseup .document': 		'textSelected',
+			'mouseover .reference': 	'highlightText',
+			'mouseout .reference': 		'unhighlightText'
 		},
 
 		render: 		function() {
@@ -28,7 +30,37 @@ define([
 		textSelected: 	function(e) {
 			if(this.model.updateSelectedText(e)) {
 				this.vent.trigger('updatePreview', this.model);
+				var sel = this.model.getHighlightedText();
+
+				//Tests that the selection is greater than 0
+				if(sel.rangeCount) {
+					//Find the old temp highlighted element (if any) and remove the span around it.
+					var content = $('.temp-highlight').contents();
+					$('.temp-highlight').replaceWith(content);
+
+					//Create the span element that will highlight the selection
+					var spanElement = document.createElement('span');
+					spanElement.setAttribute('class', 'temp-highlight');
+
+					//clone the range and surround it with the span element we made above
+					//Needs to be updated to deal with muti-range selections
+					try {
+						var range = sel.getRangeAt(0).cloneRange();
+						range.surroundContents(spanElement);
+					}
+					catch(ex) {
+
+					}
+				}
 			}
+		},
+
+		highlightText: 	function(e) {
+			$(e.target).addClass('highlight-annotation');
+		},
+
+		unhighlightText: 	function(e) {
+			$(e.target).removeClass('highlight-annotation');
 		}
 	});
 

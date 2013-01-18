@@ -2,11 +2,12 @@ define([
 	'jquery',
 	'underscore',
 	'backbone',
+	'rangy',
 	'views/document/documentView',
 	'models/document/documentModel',
 	'views/annotation/annotationView',
 	'models/annotation/annotationModel'
-], function($, _, Backbone, DocumentView, DocumentModel, AnnotationView, AnnotationModel) {
+], function($, _, Backbone, rangy, DocumentView, DocumentModel, AnnotationView, AnnotationModel) {
 	var AppRouter = Backbone.Router.extend({
 		initialize: 		function(options) {
 			this.vent = options.eventAggregator;
