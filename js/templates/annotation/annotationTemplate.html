@@ -1,4 +1,4 @@
-<form id="add-annotation-form" action="" method="post">
+<form id="add-annotation-form" action="" method="">
 	<fieldset>
 		<legend>Add annotation</legend>
 
@@ -9,7 +9,7 @@
 		<input type="text"  class="input-xlarge" placeholder="Title" />
 
 		<label>Annotation</label>
-		<textarea class="new-annotation-text" rows="4"><%= annotation %></textarea>
+		<textarea class="new-annotation-text" id="annotation-text" rows="4" placeholder="Enter annotation here"></textarea>
 		<br />
 
 		<button type="submit" class="btn btn-primary pull-right" id="add-annotation">Submit</button>

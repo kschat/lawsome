@@ -10,10 +10,9 @@ define([
 			documentText: 	''
 		},
 
-		url: 	'/add/',
+		url: 	'/add/' + this.id,
 
 		getHighlightedText: 	function() {
-			console.log(rangy);
 			var text = '';
 
 			if(window.getSelectedText) {

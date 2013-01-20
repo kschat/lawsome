@@ -4,7 +4,7 @@ define([
 	'backbone',
 	'text!templates/annotation/annotationTemplate.html'
 ], function($, _, Backbone, AnnotationTemplate) {
-	var AnnotationView = Backbone.View.extend({
+	var AddAnnotationView = Backbone.View.extend({
 		initialize: 	function() {
 			_.bindAll(this, 'updatePreview');
 			this.options.vent.bind('updatePreview', this.updatePreview);
@@ -29,10 +29,25 @@ define([
 			this.$el.find('#selected-preview').text(model.attributes.selectedText);
 		},
 
-		addAnnotation: 	function() {
-			this.model.save({annotation: this.model.get('annotation')});
+		addAnnotation: 	function(e) {
+			//Sets the username and password headers for the REST action
+			$.ajaxSetup({
+				headers: { 
+					X_REST_USERNAME: 'admin@restuser', 
+					X_REST_PASSWORD: 'admin@Access'
+				}
+			});
+
+			//Sets the annotation field in the model the text in the annotaion-text textarea.
+			this.model.set('annotation', $('#annotation-text').val());
+			console.log(this.model.isNew());
+			//Performs the RESTful PUT action
+			this.model.save();
+
+			//Stops the form from submitting
+			return false;
 		}
 	});
 
-	return AnnotationView;
+	return AddAnnotationView;
 });

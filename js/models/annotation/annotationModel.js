@@ -4,12 +4,13 @@ define([
 	'backbone'
 ], function($, _, Backbone) {
 	var AnnotationModel = Backbone.Model.extend({
-		defaults: {
-			title: 			'',
-			annotation: 	'Enter annotation here'
+		initialize: function() {
+			
 		},
-
-		url: 	''
+		defaults: {
+			annotation: 	''
+		},
+		url: 	'/api/annotations/'
 	});
 
 	return AnnotationModel;
