@@ -236,8 +236,8 @@ div.search-form
 }
 
 .document {
-	width: 100%;
-	border: 1px solid black;
+	width: 98%;
+	border: 1px solid #1B1B1B;
 
 	-moz-border-radius: 5px;
 	border-radius: 5px;

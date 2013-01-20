@@ -1,7 +1,6 @@
 <?php
 /* @var $this DocumentsController */
 /* @var $dataProvider CActiveDataProvider */
-
 $this->breadcrumbs=array(
 	'Documents',
 );
@@ -17,8 +16,8 @@ $this->menu=array(
 	'itemView'=>'_view',
 )); */?>
 
-<div class="document-main-container row-fluid fill">
-	<div class="span9">
+<div class="document-main-container row fill">
+	<div class="span7 offset2">
 		<div class="document-container" id="document-1">
 			<div class="document" id="document-<?php echo $model->document_id; ?>">
 				<p>
@@ -33,38 +32,6 @@ $this->menu=array(
 			</div>
 
 			<div class="accordion" id="annotation-list">
-				<div class="accordion-group">
-					<div class="accordion-heading">
-						<a class="accordion-toggle" data-toggle="collapse" href="#collapseOne">Annotation 1</a>
-					</div>
-					<div id="collapseOne" class="accordion-body collapse">
-						<div class="accordion-inner">
-							asdfasdfkljlkjin
-						</div>
-					</div>
-				</div>
-
-				<div class="accordion-group">
-					<div class="accordion-heading">
-						<a class="accordion-toggle" data-toggle="collapse" href="#collapseTwo">Annotation 2</a>
-					</div>
-					<div id="collapseTwo" class="accordion-body collapse">
-						<div class="accordion-inner">
-							asdfasdfkljlkjin
-						</div>
-					</div>
-				</div>
-
-				<div class="accordion-group">
-					<div class="accordion-heading">
-						<a class="accordion-toggle" data-toggle="collapse" href="#collapseThree">Annotation 3</a>
-					</div>
-					<div id="collapseThree" class="accordion-body collapse">
-						<div class="accordion-inner">
-							asdfasdfkljlkjin
-						</div>
-					</div>
-				</div>
 			</div>
 			<!--
 			<div class="annotation-container">

@@ -15,6 +15,7 @@ return array(
 	'import'=>array(
 		'application.models.*',
 		'application.components.*',
+		'ext.restfullyii.components.*',
 	),
 	'modules'=>array(
 		'gii'=>array(
@@ -42,8 +43,17 @@ return array(
 			'showScriptName'=> false,
 			'caseSensitive' => false,
 			'rules'=>array(
+				'api/<controller:\w+>'=>array('<controller>/restList', 'verb'=>'GET'),
+				'api/<controller:\w+>/<id:\w+>'=>array('<controller>/restView', 'verb'=>'GET'),
+				'api/<controller:\w+>/<id:\w+>/<var:\w+>'=>array('<controller>/restView', 'verb'=>'GET'),
+				array('<controller>/restUpdate', 'pattern'=>'api/<controller:\w+>/<id:\d+>', 'verb'=>'PUT'),
+				array('<controller>/restDelete', 'pattern'=>'api/<controller:\w+>/<id:\d+>', 'verb'=>'DELETE'),
+				array('<controller>/restCreate', 'pattern'=>'api/<controller:\w+>', 'verb'=>'POST'),
+				array('<controller>/restCreate', 'pattern'=>'api/<controller:\w+>/<id:\w+>', 'verb'=>'POST'),
 				''=>'site/index',
 				'documents/<id:\d+>'=>'documents/index',
+				'login'=>'site/login',
+				'logout'=>'site/logout',
 				'<controller>' => '<controller>/index',
 				'<action>' => 'site/<action>',
 				'<controller:\w+>/<id:\d+>'=>'<controller>/view',
