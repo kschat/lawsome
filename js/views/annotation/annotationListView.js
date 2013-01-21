@@ -8,6 +8,10 @@ define([
 		initialize: 	function() {
 			//Rerenders the list whenever the model has been reset (updated)
 			this.model.bind('reset', this.render, this);
+			this.model.bind('add', this.render, this);
+
+			_.bindAll(this, 'annotationAdded');
+			this.options.vent.bind('annotationAdded', this.annotationAdded);
 		},
 
 		el: 	$('#annotation-list'),
@@ -19,6 +23,13 @@ define([
 			}, this);
 
 			return this;
+		},
+
+		annotationAdded: 	function(m) {
+			this.$el.html('');
+			this.model.add(m);
+
+			console.log(this.model.models);
 		}
 	});
 

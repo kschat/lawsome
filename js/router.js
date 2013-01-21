@@ -23,7 +23,7 @@ define([
 			if(typeof id === 'undefined') { id = 1; }
 			var documentView = new DocumentView( {model: new DocumentModel({id: dID, selectedText: 'preview'}), vent: this.vent });
 			var addAnnotationView = new AddAnnotationView( { model: new AnnotationModel(), vent: this.vent } );
-			var annotationListView = new AnnotationListView({ model: new AnnotationCollection()});
+			var annotationListView = new AnnotationListView({ model: new AnnotationCollection(), vent: this.vent });
 
 			$.ajaxSetup({
 				headers: { 
@@ -34,6 +34,7 @@ define([
 
 			annotationListView.model.fetch();
 			$('#annotation-list').html(annotationListView.render());
+			console.log(this.vent);
 		},
 		defaultAction: 	function(action) {
 			var documentView = new DocumentView( { model:  new DocumentModel( {selectedText : 'selected text'} )});

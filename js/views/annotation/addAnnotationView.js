@@ -2,13 +2,14 @@ define([
 	'jquery',
 	'underscore',
 	'backbone',
-	'text!templates/annotation/annotationTemplate.html'
-], function($, _, Backbone, AnnotationTemplate) {
+	'text!templates/annotation/annotationTemplate.html',
+	'models/annotation/annotationModel'
+], function($, _, Backbone, AnnotationTemplate, AnnotationModel) {
 	var AddAnnotationView = Backbone.View.extend({
-		initialize: 	function() {
+		initialize: 	function(options) {
 			_.bindAll(this, 'updatePreview');
 			this.options.vent.bind('updatePreview', this.updatePreview);
-
+			this.vent = this.options.vent;
 			this.render();
 		},
 
@@ -39,11 +40,14 @@ define([
 			});
 
 			//Sets the annotation field in the model the text in the annotaion-text textarea.
-			this.model.set('annotation', $('#annotation-text').val());
-			console.log(this.model.isNew());
+			this.model.set({annotation: $('#add-annotation-text').val(), title: $('#add-annotation-title').val() });
+
 			//Performs the RESTful PUT action
 			this.model.save();
 
+			this.vent.trigger('annotationAdded', this.model);
+			this.model = new AnnotationModel();
+			this.render();
 			//Stops the form from submitting
 			return false;
 		}

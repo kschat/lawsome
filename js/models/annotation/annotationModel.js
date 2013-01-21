@@ -8,6 +8,7 @@ define([
 			
 		},
 		defaults: {
+			title: 			'',
 			annotation: 	''
 		},
 		url: 	'/api/annotations/'
