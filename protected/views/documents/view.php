@@ -1,27 +1,73 @@
 <?php
-/* @var $this DocumentsController */
-/* @var $model Documents */
-
-$this->breadcrumbs=array(
-	'Documents'=>array('index'),
-	$model->document_id,
-);
-/*
-$this->menu=array(
-	array('label'=>'List Documents', 'url'=>array('index')),
-	array('label'=>'Create Documents', 'url'=>array('create')),
-	array('label'=>'Update Documents', 'url'=>array('update', 'id'=>$model->document_id)),
-	array('label'=>'Delete Documents', 'url'=>'#', 'linkOptions'=>array('submit'=>array('delete','id'=>$model->document_id),'confirm'=>'Are you sure you want to delete this item?')),
-	array('label'=>'Manage Documents', 'url'=>array('admin')),
-);*/
+$this->widget('bootstrap.widgets.TbNavbar', array(
+	'brand'=>'',
+	'collapse'=>true,
+    'items'=>array(
+        array(
+            'class'=>'bootstrap.widgets.TbMenu',
+            'items'=>array(
+            	array('label'=>'Add annotation', 'url'=>'#add-annotation'),
+                array('label'=>'Section', 'items'=>array(
+                   array('label'=>'Body', 'url'=>'#body-section'),
+                )),
+                array('label'=>'Page', 'items'=>array(
+                   array('label'=>'1', 'url'=>'#page-1'),
+                )),
+            ),
+        ),
+    ),
+    'htmlOptions'=>array('class'=>'subnav'),
+));
 ?>
+<script>$('.subnav').find('.brand').hide();</script>
+<div class="container">
+	<section id="add-annotation" class="add-annotation-container" style="padding-top: 80px; margin-top: -80px;">
+	</section>
 
-<h1>View Documents #<?php echo $model->document_id; ?></h1>
+	<div class="document-main-container">
+			<div class="document-container" id="document-<?php echo $model->id; ?>">
+			<div class="document span9">
+				<h2 style="text-align: center;"><?php echo $model->title; ?></h2>
+				<p>
+					<?php echo $model->text; ?>
+				</p>
+			</div>
 
-<?php $this->widget('zii.widgets.CDetailView', array(
-	'data'=>$model,
-	'attributes'=>array(
-		'document_id',
-		'text',
-	),
-)); ?>
+			<div class="span3">
+				<div class="annotation-list-container">
+					
+				</div>
+			</div>
+		</div>
+		<!--
+		<div class="span3">
+			<div class="annotation-list-container">
+				<div class="annotation-container">
+				</div>
+
+				<div class="accordion" id="annotation-list">
+				</div>
+				<!--
+				<div class="annotation-container">
+					<img class="annotation-user-image" src="<?php echo Yii::app()->baseUrl. '/images/profile-default.gif'; ?>" />
+					<div class="annotation-body">
+						<div class="annotation-title">
+							<b>Title</b>
+						</div>
+						<div class="annotation">
+							<p>"On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms"</p>
+						</div>
+					</div>
+				</div>
+			
+			</div>
+		</div>-->
+	</div>
+</div>
+
+<script>
+$('.subnav').scrollspy();
+$('[data-spy="scroll"]').each(function () {
+	var $spy = $(this).scrollspy('refresh');
+});
+</script>

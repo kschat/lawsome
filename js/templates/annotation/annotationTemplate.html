@@ -1,15 +1,19 @@
 <form id="add-annotation-form" action="" method="">
 	<fieldset>
-		<legend>Add annotation</legend>
+		<legend class="page-header"><h2>Add annotation</h2></legend>
 
-		<label>Selected text</label>
-		<div class="input-xlarge preview" id="selected-preview"><%= preview %></div>
+		<div class="fluid-row">
+			<label for="selected-preview">Selected text</label>
+			<div class="preview" id="selected-preview"><%= preview %></div>
+		</div>
 
-		<label>Title</label>
-		<input type="text"  class="input-xlarge" id="add-annotation-title" placeholder="Title" />
+		<div class="fluid-row">
+			<label for="add-annotation-title">Title</label>
+			<input type="text"  class="" id="add-annotation-title" placeholder="Title" />
+		</div>
 
 		<label>Annotation</label>
-		<textarea class="new-annotation-text" id="add-annotation-text" rows="4" placeholder="Enter annotation here"></textarea>
+		<textarea class="span12 new-annotation-text" id="add-annotation-text" rows="4" placeholder="Enter annotation here"></textarea>
 		<br />
 
 		<button type="submit" class="btn btn-primary pull-right" id="add-annotation">Submit</button>

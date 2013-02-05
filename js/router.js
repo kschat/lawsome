@@ -15,14 +15,16 @@ define([
 			this.vent = options.eventAggregator;
 		},
 		routes: {
-			'documents(/:id)': 	'documentsAction',
+			'documents/view(/:id)': 	'documentsAction',
+			'documents/:id': 			'documentsAction'
 			
 			//'*actions': 	'defaultAction'
 		},
 		documentsAction: 	function(dID) {
-			if(typeof id === 'undefined') { id = 1; }
-			var documentView = new DocumentView( {model: new DocumentModel({id: dID, selectedText: 'preview'}), vent: this.vent });
-			var addAnnotationView = new AddAnnotationView( { model: new AnnotationModel(), vent: this.vent } );
+			if(typeof dID === 'undefined') { dID = 1; }
+
+			var documentView = new DocumentView( {model: new DocumentModel({id: dID, text: $('.document > p').text()}), vent: this.vent });
+			var addAnnotationView = new AddAnnotationView( { model: new AnnotationModel({document_id: dID}), vent: this.vent } );
 			var annotationListView = new AnnotationListView({ model: new AnnotationCollection(), vent: this.vent });
 
 			$.ajaxSetup({
@@ -32,13 +34,9 @@ define([
 				}
 			});
 
-			annotationListView.model.fetch();
+			annotationListView.model.fetch({ data: { document_id: 2 } });
 			$('#annotation-list').html(annotationListView.render());
-			console.log(this.vent);
-		},
-		defaultAction: 	function(action) {
-			var documentView = new DocumentView( { model:  new DocumentModel( {selectedText : 'selected text'} )});
-			documentView.render();
+			//console.log(this.vent);
 		}
 	});
 

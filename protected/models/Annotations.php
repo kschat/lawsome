@@ -4,8 +4,13 @@
  * This is the model class for table "annotations".
  *
  * The followings are the available columns in table 'annotations':
- * @property integer $annotation_id
+ * @property integer $id
+ * @property integer $document_id
+ * @property string $title
  * @property string $annotation
+ *
+ * The followings are the available model relations:
+ * @property Documents $document
  */
 class Annotations extends CActiveRecord
 {
@@ -35,10 +40,12 @@ class Annotations extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('annotation', 'required'),
+			array('document_id, title, annotation', 'required'),
+			array('document_id', 'numerical', 'integerOnly'=>true),
+			array('title', 'length', 'max'=>30),
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.
-			array('annotation_id, annotation', 'safe', 'on'=>'search'),
+			array('id, document_id, title, annotation', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -50,6 +57,7 @@ class Annotations extends CActiveRecord
 		// NOTE: you may need to adjust the relation name and the related
 		// class name for the relations automatically generated below.
 		return array(
+			'document' => array(self::BELONGS_TO, 'Documents', 'document_id'),
 		);
 	}
 
@@ -59,7 +67,9 @@ class Annotations extends CActiveRecord
 	public function attributeLabels()
 	{
 		return array(
-			'annotation_id' => 'Annotation',
+			'id' => 'ID',
+			'document_id' => 'Document',
+			'title' => 'Title',
 			'annotation' => 'Annotation',
 		);
 	}
@@ -75,7 +85,9 @@ class Annotations extends CActiveRecord
 
 		$criteria=new CDbCriteria;
 
-		$criteria->compare('annotation_id',$this->annotation_id);
+		$criteria->compare('id',$this->id);
+		$criteria->compare('document_id',$this->document_id);
+		$criteria->compare('title',$this->title,true);
 		$criteria->compare('annotation',$this->annotation,true);
 
 		return new CActiveDataProvider($this, array(

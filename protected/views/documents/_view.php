@@ -1,16 +1,20 @@
 <?php
 /* @var $this DocumentsController */
 /* @var $data Documents */
+
+if($index % 3 == 0) {
+	?><div class="row-fluid">
+<?php } 
+
 ?>
 
-<div class="view">
-
-	<b><?php echo CHtml::encode($data->getAttributeLabel('document_id')); ?>:</b>
-	<?php echo CHtml::link(CHtml::encode($data->document_id), array('view', 'id'=>$data->document_id)); ?>
-	<br />
-
-	<b><?php echo CHtml::encode($data->getAttributeLabel('text')); ?>:</b>
-	<?php echo CHtml::encode($data->text); ?>
+<div class="document span4" style="text-align: center;">
+	<i class="icon-file"></i>
+	<?php echo CHtml::link(CHtml::encode($data->title), array('view', 'id'=>$data->id)); ?>
 	<br />
 
 </div>
+<?php 
+if($index % 3 == 2) {
+	?></div>
+<?php }

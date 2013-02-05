@@ -4,27 +4,22 @@
 /* @var $form CActiveForm */
 ?>
 
-<div class="wide form">
+<!--<div class="wide form">-->
 
-<?php $form=$this->beginWidget('CActiveForm', array(
+<?php $form=$this->beginWidget('bootstrap.widgets.TbActiveForm', array(
 	'action'=>Yii::app()->createUrl($this->route),
 	'method'=>'get',
 )); ?>
+	
+	<?php 
+		echo $form->textFieldRow($model,'id');
+		echo $form->textAreaRow($model,'text', array('class'=>'span12', 'rows'=>6, 'cols'=>150)); 
+	?>
 
-	<div class="row">
-		<?php echo $form->label($model,'document_id'); ?>
-		<?php echo $form->textField($model,'document_id'); ?>
-	</div>
-
-	<div class="row">
-		<?php echo $form->label($model,'text'); ?>
-		<?php echo $form->textArea($model,'text',array('rows'=>6, 'cols'=>50)); ?>
-	</div>
-
-	<div class="row buttons">
-		<?php echo CHtml::submitButton('Search'); ?>
+	<div class="buttons">
+		<?php $this->widget('bootstrap.widgets.TbButton', array('buttonType'=>'submit', 'type'=>'primary', 'label'=>'Search')); ?>
 	</div>
 
 <?php $this->endWidget(); ?>
 
-</div><!-- search-form -->
+<!--</div> search-form -->

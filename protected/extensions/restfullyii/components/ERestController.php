@@ -478,11 +478,11 @@ class ERestController extends Controller
 	 */ 
 	public function doRestUpdate($id, $data) {		
 		$model = $this->saveModel($this->loadOneModel($id), $data);
-    //$this->outputHelper(
-    //  'Record Updated',
-    //  $model,
-    //  1
-    //);
+    $this->outputHelper(
+      'Record Updated',
+      $model,
+      1
+    );
 	}
 	
 	/**
@@ -492,12 +492,12 @@ class ERestController extends Controller
 	 */ 
 	public function doRestCreate($data) {
 		$models = $this->saveModel($this->getModel(), $data);
-    //$this->renderJson(array('success'=>true, 'message'=>'Record(s) Created', 'data'=>array($models)));
-    $this->outputHelper(
-      'Record(s) Created',
-      $models,
-      count($models)
-    );
+    $this->renderJson($models);
+    //$this->outputHelper(
+    //  'Record(s) Created',
+    //  $models,
+    //  count($models)
+    //);
 	}
 	
 	/**
