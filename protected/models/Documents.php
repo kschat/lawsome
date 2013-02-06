@@ -67,7 +67,7 @@ class Documents extends CActiveRecord
 		return array(
 			'id' => 'ID',
 			'title' => 'Title',
-			'text' => 'Text',
+			'text' => 'Document Body',
 		);
 	}
 

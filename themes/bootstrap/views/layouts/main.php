@@ -32,12 +32,12 @@ $this->widget('bootstrap.widgets.TbNavbar',array(
         	'class' => 'bootstrap.widgets.TbMenu',
         	'htmlOptions' => array('class' => 'pull-right'),
         	'items' => array(
-                array('label'=>'Login', 'url'=>array('/site/login'), 'visible'=>Yii::app()->user->isGuest),
+                array('label'=>'Login', 'url'=>array('/user/login'), 'visible'=>Yii::app()->user->isGuest),
                 array('label'=>Yii::app()->user->name, 'url'=>'#', 'visible'=>!Yii::app()->user->isGuest, 'items'=>array(
                         array('label'=>'Add a document', 'url'=>'/documents/create'),
                         array('label'=>'Manage documents', 'url'=>'/documents/admin'),
                         '---',
-                        array('label'=>'Logout', 'url'=>'/site/logout'),
+                        array('label'=>'Logout', 'url'=>'/user/logout'),
                     ),
                 ),
         	),

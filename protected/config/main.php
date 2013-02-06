@@ -16,6 +16,10 @@ return array(
 		'application.models.*',
 		'application.components.*',
 		'ext.restfullyii.components.*',
+		'application.modules.user.models.*',
+		'application.modules.user.components.*',
+		'application.modules.rights.*',
+		'application.modules.rights.components.*',
 	),
 	'modules'=>array(
 		'gii'=>array(
@@ -27,6 +31,44 @@ return array(
 				'bootstrap.gii'
 			),
 		),
+		'user'=>array(
+			'tableUsers'=>'users',
+			'tableProfiles'=>'profiles',
+			'tableProfileFields'=>'profiles_fields',
+
+            # encrypting method (php hash function)
+            'hash' => 'md5',
+ 
+            # send activation email
+            'sendActivationMail' => true,
+ 
+            # allow access for non-activated users
+            'loginNotActiv' => false,
+ 
+            # activate user on registration (only sendActivationMail = false)
+            'activeAfterRegister' => false,
+ 
+            # automatically login from registration
+            'autoLogin' => true,
+ 
+            # registration path
+            'registrationUrl' => array('/user/registration'),
+ 
+            # recovery password path
+            'recoveryUrl' => array('/user/recovery'),
+ 
+            # login form path
+            'loginUrl' => array('/user/login'),
+ 
+            # page after login
+            'returnUrl' => array('/user/profile'),
+ 
+            # page after logout
+            'returnLogoutUrl' => array('/user/login'),
+        ),
+		'rights'=>array(
+			//'install'=>true,
+		),
 	),
 	'theme' => 'bootstrap',
 	// application components
@@ -35,8 +77,15 @@ return array(
 			'class'=>'bootstrap.components.Bootstrap',
 		),
 		'user'=>array(
+			'class'=>'RWebUser',
+			'loginUrl'=>array('/user/login'),
 			// enable cookie-based authentication
 			'allowAutoLogin'=>true,
+		),
+		'authManager'=>array(
+			'class'=>'RDbAuthManager',
+			'connectionID'=>'db',
+			'defaultRoles'=>array('Authenticated', 'Guest'),
 		),
 		'urlManager'=>array(
 			'urlFormat'=>'path',
