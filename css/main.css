@@ -4,15 +4,14 @@ body
 	padding: 0;
 	color: #555;
 	font: normal 10pt Arial,Helvetica,sans-serif;
-	background: #EFEFEF;
+	background: #F8F8F8 !important;
 }
 
 #page
 {
-	margin-top: 5px;
+	margin-top: 40px;
 	margin-bottom: 5px;
-	background: white;
-	border: 1px solid #C9E0ED;
+	background: #F8F8F8;
 }
 
 #header
@@ -236,33 +235,27 @@ div.search-form
 }
 
 .document {
-	width: 98%;
-	border: 1px solid #1B1B1B;
+	overflow: hidden;
+	background-color: white;
+	border: 1px solid #CACACA;
 
-	-moz-border-radius: 5px;
-	border-radius: 5px;
+	border-radius: 4px;
+	-moz-border-radius: 4px;
 
 	padding: 18px;
+	margin-bottom: 20px;
 }
 
 .annotation-list-container {
-	position: fixed;
-	width: 440px;
-	height: 100%;
-	background-color: whiteSmoke;
-	
-	-moz-border-radius: 5px;
-	border-top-left-radius: 5px;
-	border-bottom-left-radius: 5px;
-
-	padding: 4px;
+	width: 100%;
+	background-color: white;
 }
 
-.annotation-container {
+.add-annotation-container {
 	position: relative;
 	overflow: hidden;
 	padding: 5px;
-	overflow: hidden;
+	margin-bottom: 20px;
 }
 
 .annotation-body p {
@@ -283,9 +276,9 @@ div.search-form
 
 .preview {
 	min-height: 26px;
-	width: 415px !important;
-	background-color: white;
+	background-color: #EEE;
 	padding: 4px 8px;
+	margin-bottom: 15px;
 
 	border: 1px solid #CCC;
 	border-radius: 4px;
@@ -293,11 +286,23 @@ div.search-form
 }
 
 .highlight-annotation {
-	background-color: yellow;
+	background-color: #8BCBEB;
 	cursor: pointer;
 }
 
 .temp-highlight {
-	background-color: orange;
+	background-color: #EFE362;
 	cursor: pointer;
+}
+
+.annotation-hover {
+	border: 1px solid #B9B9B9 !important;
+}
+
+.mainnav {
+	z-index: 1031 !important;
+}
+
+.subnav {
+	top: 40px !important;
 }

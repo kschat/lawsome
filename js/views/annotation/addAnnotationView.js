@@ -7,13 +7,16 @@ define([
 ], function($, _, Backbone, AnnotationTemplate, AnnotationModel) {
 	var AddAnnotationView = Backbone.View.extend({
 		initialize: 	function(options) {
-			_.bindAll(this, 'updatePreview');
+			//Bind 'this' with updatePreivew, bind the 'updatePreivew' event with
+			//the updatePreview method for this object.
+			_.bindAll(this, 'updatePreview', 'saveSuccess', 'saveError');
 			this.options.vent.bind('updatePreview', this.updatePreview);
+			
 			this.vent = this.options.vent;
 			this.render();
 		},
 
-		el: 			$('.annotation-container'),
+		el: 			$('.add-annotation-container'),
 
 		events: 	{
 			'click #add-annotation': 	'addAnnotation'
@@ -30,6 +33,18 @@ define([
 			this.$el.find('#selected-preview').text(model.attributes.selectedText);
 		},
 
+		saveSuccess: 	function() {
+			//Trigger the annotationAdded event and pass this views model to it; then replace
+			//this views old model with a new one. Finally, re-render the view.
+			this.vent.trigger('annotationAdded', this.model);
+			this.model = new AnnotationModel();
+			this.render();
+		},
+
+		saveError: 		function() {
+
+		},
+
 		addAnnotation: 	function(e) {
 			//Sets the username and password headers for the REST action
 			$.ajaxSetup({
@@ -40,14 +55,14 @@ define([
 			});
 
 			//Sets the annotation field in the model the text in the annotaion-text textarea.
-			this.model.set({annotation: $('#add-annotation-text').val(), title: $('#add-annotation-title').val() });
+			this.model.set({  annotation: $('#add-annotation-text').val(), title: $('#add-annotation-title').val() });
 
-			//Performs the RESTful PUT action
-			this.model.save();
+			//Performs the RESTful POST action
+			this.model.save({}, {
+				success: 	this.saveSuccess,
+				error: 	this.saveError
+			});
 
-			this.vent.trigger('annotationAdded', this.model);
-			this.model = new AnnotationModel();
-			this.render();
 			//Stops the form from submitting
 			return false;
 		}

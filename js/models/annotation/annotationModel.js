@@ -11,7 +11,14 @@ define([
 			title: 			'',
 			annotation: 	''
 		},
-		url: 	'/api/annotations/'
+		url: 	'/api/annotations/',
+		parse: 	function(response) {
+			if(response[0]) {
+				return response[0];
+			}
+
+			return response;
+		}
 	});
 
 	return AnnotationModel;

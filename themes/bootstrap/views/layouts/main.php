@@ -6,59 +6,55 @@
 	<meta name="language" content="en" />
 
     <link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->theme->baseUrl; ?>/css/styles.css" />
-    <script data-main="../js/bootstrap" src="../js/libs/require/require-2.1.2.min.js"></script>
+    <script data-main="../../js/bootstrap" src="../../js/libs/require/require-2.1.2.min.js"></script>
     <?php Yii::app()->clientScript->registerCssFile(Yii::app()->baseUrl.'/css/main.css'); ?>
 	<title><?php echo CHtml::encode($this->pageTitle); ?></title>
 
 	<?php Yii::app()->bootstrap->register(); ?>
 </head>
 
-<body>
+<body data-spy="scroll" data-target=".subnav" data-offset="80">
 
-<?php $this->widget('bootstrap.widgets.TbNavbar',array(
+<?php 
+$this->widget('bootstrap.widgets.TbNavbar',array(
+    'htmlOptions'=>array('class'=>'mainnav'),
 	'type' => 'inverse',
     'items'=>array(
         array(
             'class'=>'bootstrap.widgets.TbMenu',
             'items'=>array(
-                array('label'=>'Home', 'url'=>array('/site/index')),
                 array('label'=>'Documents', 'url'=>array('documents/index')),
                 array('label'=>'About', 'url'=>array('/site/page', 'view'=>'about')),
                 array('label'=>'Contact', 'url'=>array('/site/contact')),
-                array('label'=>'Login', 'url'=>array('/site/login'), 'visible'=>Yii::app()->user->isGuest),
-                array('label'=>'Logout ('.Yii::app()->user->name.')', 'url'=>array('/site/logout'), 'visible'=>!Yii::app()->user->isGuest)
             ),
         ),
         array(
         	'class' => 'bootstrap.widgets.TbMenu',
         	'htmlOptions' => array('class' => 'pull-right'),
         	'items' => array(
-        		array('label'=>'kyle', 'url' => '#', 'items' => array(
-        				array('label' => 'Action', 'url' => '#'),
-        			),
-        		),
+                array('label'=>'Login', 'url'=>array('/user/login'), 'visible'=>Yii::app()->user->isGuest),
+                array('label'=>Yii::app()->user->name, 'url'=>'#', 'visible'=>!Yii::app()->user->isGuest, 'items'=>array(
+                        array('label'=>'Add a document', 'url'=>'/documents/create'),
+                        array('label'=>'Manage documents', 'url'=>'/documents/admin'),
+                        '---',
+                        array('label'=>'Logout', 'url'=>'/user/logout'),
+                    ),
+                ),
         	),
     	)
 	)
 ));
 ?>
 
-<div class="container-fluid" id="page">
-
-	<?php if(isset($this->breadcrumbs)):?>
-		<?php $this->widget('bootstrap.widgets.TbBreadcrumbs', array(
-			'links'=>$this->breadcrumbs,
-		)); ?><!-- breadcrumbs -->
-	<?php endif?>
+<div class="container" id="page">
 
 	<?php echo $content; ?>
 
 	<div class="clear"></div>
 
 	<div id="footer">
-		Copyright &copy; <?php echo date('Y'); ?> by My Company.<br/>
+		Copyright &copy; <?php echo date('Y'); ?> by Lawsome.<br/>
 		All Rights Reserved.<br/>
-		<?php echo Yii::powered(); ?>
 	</div><!-- footer -->
 
 </div><!-- page -->

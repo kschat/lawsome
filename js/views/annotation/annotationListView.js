@@ -14,12 +14,12 @@ define([
 			this.options.vent.bind('annotationAdded', this.annotationAdded);
 		},
 
-		el: 	$('#annotation-list'),
+		el: 	$('.annotation-list-container'),
 
 		render: 		function(e) {
 			_.each(this.model.models, function(m) {
 				//Appends a new AnnotationListItemView to the list and adds it to the DOM
-				this.$el.append(new AnnotationListItemView({model: m}).render().el);
+				this.$el.append(new AnnotationListItemView({model: m, vent: this.options.vent}).render().el);
 			}, this);
 
 			return this;
@@ -28,8 +28,6 @@ define([
 		annotationAdded: 	function(m) {
 			this.$el.html('');
 			this.model.add(m);
-
-			console.log(this.model.models);
 		}
 	});
 

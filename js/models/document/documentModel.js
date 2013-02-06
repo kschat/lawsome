@@ -6,11 +6,16 @@ define([
 ], function($, _, Backbone, rangy) {
 	var DocumentModel = Backbone.Model.extend({
 		defaults: {
-			selectedText: 	'',
-			documentText: 	''
+			selectedText: 	'No selection has been made'
 		},
 
-		url: 	'/add/' + this.id,
+		url: 	function() {
+			return '/api/documents/' + this.get('id')
+		},
+
+		toJSON: 	function() {
+			return { id: this.get('id'), text: this.get('text') };
+		},
 
 		getHighlightedText: 	function() {
 			var text = '';

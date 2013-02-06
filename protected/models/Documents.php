@@ -4,8 +4,12 @@
  * This is the model class for table "documents".
  *
  * The followings are the available columns in table 'documents':
- * @property integer $document_id
+ * @property integer $id
+ * @property string $title
  * @property string $text
+ *
+ * The followings are the available model relations:
+ * @property Annotations[] $annotations
  */
 class Documents extends CActiveRecord
 {
@@ -35,10 +39,11 @@ class Documents extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('text', 'required'),
+			array('title, text', 'required'),
+			array('title', 'length', 'max'=>25),
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.
-			array('document_id, text', 'safe', 'on'=>'search'),
+			array('id, title, text', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -50,6 +55,7 @@ class Documents extends CActiveRecord
 		// NOTE: you may need to adjust the relation name and the related
 		// class name for the relations automatically generated below.
 		return array(
+			'annotations' => array(self::HAS_MANY, 'Annotations', 'document_id'),
 		);
 	}
 
@@ -59,8 +65,9 @@ class Documents extends CActiveRecord
 	public function attributeLabels()
 	{
 		return array(
-			'document_id' => 'Document',
-			'text' => 'Text',
+			'id' => 'ID',
+			'title' => 'Title',
+			'text' => 'Document Body',
 		);
 	}
 
@@ -75,7 +82,8 @@ class Documents extends CActiveRecord
 
 		$criteria=new CDbCriteria;
 
-		$criteria->compare('document_id',$this->document_id);
+		$criteria->compare('id',$this->id);
+		$criteria->compare('title',$this->title,true);
 		$criteria->compare('text',$this->text,true);
 
 		return new CActiveDataProvider($this, array(

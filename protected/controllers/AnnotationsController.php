@@ -29,11 +29,11 @@ class AnnotationsController extends ERestController
 		return array(
 			array('allow',  // allow all users to perform 'index' and 'view' actions
 				'actions'=>array('index','view'),
-				'users'=>array('*'),
+				'users'=>array('admin'),
 			),
 			array('allow', // allow authenticated user to perform 'create' and 'update' actions
 				'actions'=>array('create','update'),
-				'users'=>array('@'),
+				'users'=>array('admin'),
 			),
 			array('allow', // allow admin user to perform 'admin' and 'delete' actions
 				'actions'=>array('admin','delete'),
@@ -51,6 +51,10 @@ class AnnotationsController extends ERestController
 	 */
 	public function actionView($id)
 	{
+		if(isset($_GET['id'])) {
+			$model->id=$_GET['id'];
+		}
+
 		$this->render('view',array(
 			'model'=>$this->loadModel($id),
 		));
@@ -79,6 +83,8 @@ class AnnotationsController extends ERestController
 		$this->render('create',array(
 			'model'=>$model,
 		));
+
+		//echo $this->renderJSON($model);
 	}
 
 	/**
@@ -126,6 +132,9 @@ class AnnotationsController extends ERestController
 	 */
 	public function actionIndex()
 	{
+		if(isset($_GET['document_id'])) {
+			$model->document_id=$_GET['document_id'];
+		}
 		$dataProvider=new CActiveDataProvider('Annotations');
 		$this->render('index',array(
 			'dataProvider'=>$dataProvider,
@@ -139,8 +148,12 @@ class AnnotationsController extends ERestController
 	{
 		$model=new Annotations('search');
 		$model->unsetAttributes();  // clear any default values
-		if(isset($_GET['Annotations']))
+		if(isset($_GET['Annotations'])) {
 			$model->attributes=$_GET['Annotations'];
+		}
+		if(isset($_GET['document_id'])) {
+			$model->attributes=$_GET['document_id'];
+		}
 
 		$this->render('admin',array(
 			'model'=>$model,
