@@ -90,7 +90,6 @@ return array(
 		'urlManager'=>array(
 			'urlFormat'=>'path',
 			'showScriptName'=> false,
-			//'caseSensitive' => false,
 			'rules'=>array(
 				'api/<controller:\w+>'=>array('<controller>/restList', 'verb'=>'GET'),
 				'api/<controller:\w+>/<id:\w+>'=>array('<controller>/restView', 'verb'=>'GET'),
@@ -101,10 +100,6 @@ return array(
 				array('<controller>/restCreate', 'pattern'=>'api/<controller:\w+>/<id:\w+>', 'verb'=>'POST'),
 				''=>'site/index',
 				'documents/'=>'/documents/index',
-				//'<action>' => 'site/<action>',
-				//'<controller>' => '<controller>/index',
-				//'authItem/permissions'=>'authItem/permissions',
-				//'<controller:\w+>/<action:\w+>'=>'rights/<controller:\w+>/<action:\w+>',
 				'<controller:\w+>/<id:\d+>'=>'<controller>/view',
 				'<controller:\w+>/<action:\w+>/<id:\d+>'=>'<controller>/<action>',
 				'<controller:\w+>/<action:\w+>'=>'<controller>/<action>',

@@ -8095,3 +8095,1701 @@ Stack trace:
 #3 {main}
 REQUEST_URI=/favicon.ico
 ---
+2013/02/07 21:23:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/lib/bootstrap/less/mixins.less".' in /var/www/lawsome/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/lib/boot...')
+#1 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/lawsome/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/lib/bootstrap/less/mixins.less
+HTTP_REFERER=http://lawsome.loc/documents
+---
+2013/02/07 21:23:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /var/www/lawsome/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/lawsome/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/07 21:23:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/lib/bootstrap/less/mixins.less".' in /var/www/lawsome/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/lib/boot...')
+#1 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/lawsome/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/lib/bootstrap/less/mixins.less
+HTTP_REFERER=http://lawsome.loc/site/page?view=about
+---
+2013/02/07 21:23:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /var/www/lawsome/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/lawsome/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/07 21:25:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/lib/bootstrap/less/mixins.less".' in /var/www/lawsome/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/lib/boot...')
+#1 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/lawsome/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/lib/bootstrap/less/mixins.less
+HTTP_REFERER=http://lawsome.loc/
+---
+2013/02/07 21:25:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /var/www/lawsome/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/lawsome/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/07 23:11:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/lib/bootstrap/less/mixins.less".' in /var/www/lawsome/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/lib/boot...')
+#1 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/lawsome/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/lib/bootstrap/less/mixins.less
+HTTP_REFERER=http://lawsome.loc/user/login
+---
+2013/02/07 23:11:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /var/www/lawsome/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/lawsome/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/07 23:12:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/lib/bootstrap/less/mixins.less".' in /var/www/lawsome/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/lib/boot...')
+#1 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/lawsome/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/lib/bootstrap/less/mixins.less
+HTTP_REFERER=http://lawsome.loc/
+---
+2013/02/07 23:12:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /var/www/lawsome/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/lawsome/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/07 23:12:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /var/www/lawsome/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/lawsome/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/07 23:12:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/lib/bootstrap/less/mixins.less".' in /var/www/lawsome/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/lib/boot...')
+#1 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/lawsome/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/lib/bootstrap/less/mixins.less
+HTTP_REFERER=http://lawsome.loc/site/page?view=about
+---
+2013/02/07 23:12:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /var/www/lawsome/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/lawsome/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/07 23:12:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/lib/bootstrap/less/mixins.less".' in /var/www/lawsome/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/lib/boot...')
+#1 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/lawsome/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/lib/bootstrap/less/mixins.less
+HTTP_REFERER=http://lawsome.loc/
+---
+2013/02/07 23:12:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /var/www/lawsome/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/lawsome/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/07 23:12:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /var/www/lawsome/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/lawsome/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/07 23:12:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/lib/bootstrap/less/mixins.less".' in /var/www/lawsome/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/lib/boot...')
+#1 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/lawsome/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/lib/bootstrap/less/mixins.less
+HTTP_REFERER=http://lawsome.loc/site/page?view=about
+---
+2013/02/07 23:12:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /var/www/lawsome/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/lawsome/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/07 23:12:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /var/www/lawsome/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/lawsome/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/07 23:12:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/lib/bootstrap/less/mixins.less".' in /var/www/lawsome/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/lib/boot...')
+#1 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/lawsome/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/lib/bootstrap/less/mixins.less
+HTTP_REFERER=http://lawsome.loc/site/contact
+---
+2013/02/07 23:12:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /var/www/lawsome/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/lawsome/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/07 23:12:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/lib/bootstrap/less/mixins.less".' in /var/www/lawsome/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/lib/boot...')
+#1 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/lawsome/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/lib/bootstrap/less/mixins.less
+HTTP_REFERER=http://lawsome.loc/
+---
+2013/02/07 23:12:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /var/www/lawsome/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/lawsome/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/07 23:12:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /var/www/lawsome/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/lawsome/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/07 23:12:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/lib/bootstrap/less/mixins.less".' in /var/www/lawsome/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/lib/boot...')
+#1 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/lawsome/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/lib/bootstrap/less/mixins.less
+HTTP_REFERER=http://lawsome.loc/user/login
+---
+2013/02/07 23:12:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /var/www/lawsome/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/lawsome/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/07 23:12:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /var/www/lawsome/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/lawsome/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/07 23:12:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/lib/bootstrap/less/mixins.less".' in /var/www/lawsome/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/lib/boot...')
+#1 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/lawsome/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/lib/bootstrap/less/mixins.less
+HTTP_REFERER=http://lawsome.loc/documents
+---
+2013/02/07 23:12:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /var/www/lawsome/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/lawsome/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/07 23:12:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /var/www/lawsome/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/lawsome/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/07 23:12:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/lib/bootstrap/less/mixins.less".' in /var/www/lawsome/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/lib/boot...')
+#1 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/lawsome/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/lib/bootstrap/less/mixins.less
+HTTP_REFERER=http://lawsome.loc/site/page?view=about
+---
+2013/02/07 23:12:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /var/www/lawsome/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/lawsome/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/07 23:12:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /var/www/lawsome/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/lawsome/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/07 23:12:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/lib/bootstrap/less/mixins.less".' in /var/www/lawsome/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/lib/boot...')
+#1 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/lawsome/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/lib/bootstrap/less/mixins.less
+HTTP_REFERER=http://lawsome.loc/site/contact
+---
+2013/02/07 23:12:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /var/www/lawsome/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/lawsome/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/07 23:12:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /var/www/lawsome/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/lawsome/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/07 23:12:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/lib/bootstrap/less/mixins.less".' in /var/www/lawsome/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/lib/boot...')
+#1 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/lawsome/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/lib/bootstrap/less/mixins.less
+HTTP_REFERER=http://lawsome.loc/
+---
+2013/02/07 23:12:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /var/www/lawsome/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/lawsome/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/07 23:12:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /var/www/lawsome/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/lawsome/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/07 23:12:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/lib/bootstrap/less/mixins.less".' in /var/www/lawsome/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/lib/boot...')
+#1 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/lawsome/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/lib/bootstrap/less/mixins.less
+HTTP_REFERER=http://lawsome.loc/site/page?view=about
+---
+2013/02/07 23:12:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /var/www/lawsome/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/lawsome/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/07 23:12:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /var/www/lawsome/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/lawsome/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/07 23:12:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/lib/bootstrap/less/mixins.less".' in /var/www/lawsome/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/lib/boot...')
+#1 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/lawsome/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/lib/bootstrap/less/mixins.less
+HTTP_REFERER=http://lawsome.loc/user/login
+---
+2013/02/07 23:12:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /var/www/lawsome/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/lawsome/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/07 23:12:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /var/www/lawsome/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/lawsome/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/07 23:12:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/lib/bootstrap/less/mixins.less".' in /var/www/lawsome/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/lib/boot...')
+#1 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/lawsome/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/lib/bootstrap/less/mixins.less
+HTTP_REFERER=http://lawsome.loc/
+---
+2013/02/07 23:12:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /var/www/lawsome/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/lawsome/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/07 23:12:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /var/www/lawsome/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/lawsome/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/07 23:13:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/lib/bootstrap/less/mixins.less".' in /var/www/lawsome/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/lib/boot...')
+#1 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/lawsome/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/lib/bootstrap/less/mixins.less
+HTTP_REFERER=http://lawsome.loc/user/profile
+---
+2013/02/07 23:13:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /var/www/lawsome/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/lawsome/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/07 23:17:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/lib/bootstrap/less/mixins.less".' in /var/www/lawsome/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/lib/boot...')
+#1 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/lawsome/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/lib/bootstrap/less/mixins.less
+HTTP_REFERER=http://lawsome.loc/site/page?view=about
+---
+2013/02/07 23:17:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /var/www/lawsome/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/lawsome/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/07 23:17:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /var/www/lawsome/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/lawsome/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/07 23:17:33 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in /var/www/lawsome/protected/modules/rights/components/RController.php:62
+Stack trace:
+#0 /var/www/lawsome/protected/modules/rights/components/RightsFilter.php(57): RController->accessDenied()
+#1 /var/www/lawsome/framework/web/filters/CFilter.php(38): RightsFilter->preFilter(Object(CFilterChain))
+#2 /var/www/lawsome/protected/modules/rights/components/RController.php(36): CFilter->filter(Object(CFilterChain))
+#3 /var/www/lawsome/framework/web/filters/CInlineFilter.php(58): RController->filterRights(Object(CFilterChain))
+#4 /var/www/lawsome/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 /var/www/lawsome/framework/web/CController.php(291): CFilterChain->run()
+#6 /var/www/lawsome/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /var/www/lawsome/framework/web/CWebApplication.php(282): CController->run('index')
+#8 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController('documents/index')
+#9 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#10 /var/www/lawsome/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/documents
+HTTP_REFERER=http://lawsome.loc/site/page?view=about
+---
+2013/02/07 23:17:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/lib/bootstrap/less/mixins.less".' in /var/www/lawsome/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/lib/boot...')
+#1 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/lawsome/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/lib/bootstrap/less/mixins.less
+HTTP_REFERER=http://lawsome.loc/documents
+---
+2013/02/07 23:17:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /var/www/lawsome/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/lawsome/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/07 23:17:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /var/www/lawsome/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/lawsome/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/07 23:17:36 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in /var/www/lawsome/protected/modules/rights/components/RController.php:62
+Stack trace:
+#0 /var/www/lawsome/protected/modules/rights/components/RightsFilter.php(57): RController->accessDenied()
+#1 /var/www/lawsome/framework/web/filters/CFilter.php(38): RightsFilter->preFilter(Object(CFilterChain))
+#2 /var/www/lawsome/protected/modules/rights/components/RController.php(36): CFilter->filter(Object(CFilterChain))
+#3 /var/www/lawsome/framework/web/filters/CInlineFilter.php(58): RController->filterRights(Object(CFilterChain))
+#4 /var/www/lawsome/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 /var/www/lawsome/framework/web/CController.php(291): CFilterChain->run()
+#6 /var/www/lawsome/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /var/www/lawsome/framework/web/CWebApplication.php(282): CController->run('index')
+#8 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController('documents/index')
+#9 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#10 /var/www/lawsome/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/documents
+HTTP_REFERER=http://lawsome.loc/documents
+---
+2013/02/07 23:17:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/lib/bootstrap/less/mixins.less".' in /var/www/lawsome/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/lib/boot...')
+#1 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/lawsome/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/lib/bootstrap/less/mixins.less
+HTTP_REFERER=http://lawsome.loc/documents
+---
+2013/02/07 23:17:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /var/www/lawsome/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/lawsome/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/07 23:17:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /var/www/lawsome/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/lawsome/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/07 23:17:40 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in /var/www/lawsome/protected/modules/rights/components/RController.php:62
+Stack trace:
+#0 /var/www/lawsome/protected/modules/rights/components/RightsFilter.php(57): RController->accessDenied()
+#1 /var/www/lawsome/framework/web/filters/CFilter.php(38): RightsFilter->preFilter(Object(CFilterChain))
+#2 /var/www/lawsome/protected/modules/rights/components/RController.php(36): CFilter->filter(Object(CFilterChain))
+#3 /var/www/lawsome/framework/web/filters/CInlineFilter.php(58): RController->filterRights(Object(CFilterChain))
+#4 /var/www/lawsome/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 /var/www/lawsome/framework/web/CController.php(291): CFilterChain->run()
+#6 /var/www/lawsome/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /var/www/lawsome/framework/web/CWebApplication.php(282): CController->run('index')
+#8 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController('documents/index')
+#9 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#10 /var/www/lawsome/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/documents
+HTTP_REFERER=http://lawsome.loc/documents
+---
+2013/02/07 23:17:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/lib/bootstrap/less/mixins.less".' in /var/www/lawsome/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/lib/boot...')
+#1 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/lawsome/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/lib/bootstrap/less/mixins.less
+HTTP_REFERER=http://lawsome.loc/documents
+---
+2013/02/07 23:17:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /var/www/lawsome/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/lawsome/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/07 23:17:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /var/www/lawsome/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/lawsome/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/07 23:17:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/lib/bootstrap/less/mixins.less".' in /var/www/lawsome/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/lib/boot...')
+#1 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/lawsome/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/lib/bootstrap/less/mixins.less
+HTTP_REFERER=http://lawsome.loc/user/login
+---
+2013/02/07 23:17:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /var/www/lawsome/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/lawsome/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/07 23:17:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/lib/bootstrap/less/mixins.less".' in /var/www/lawsome/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/lib/boot...')
+#1 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/lawsome/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/lib/bootstrap/less/mixins.less
+HTTP_REFERER=http://lawsome.loc/
+---
+2013/02/07 23:17:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /var/www/lawsome/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/lawsome/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/07 23:18:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "right".' in /var/www/lawsome/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController('right')
+#1 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/lawsome/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/right
+---
+2013/02/07 23:18:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/lib/bootstrap/less/mixins.less".' in /var/www/lawsome/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/lib/boot...')
+#1 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/lawsome/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/lib/bootstrap/less/mixins.less
+HTTP_REFERER=http://lawsome.loc/right
+---
+2013/02/07 23:18:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /var/www/lawsome/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/lawsome/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/07 23:18:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /var/www/lawsome/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/lawsome/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/07 23:18:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /var/www/lawsome/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/lawsome/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/07 23:18:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/lib/bootstrap/less/mixins.less".' in /var/www/lawsome/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/lib/boot...')
+#1 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/lawsome/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/lib/bootstrap/less/mixins.less
+HTTP_REFERER=http://lawsome.loc/documents
+---
+2013/02/07 23:18:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /var/www/lawsome/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/lawsome/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/07 23:18:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /var/www/lawsome/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/lawsome/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/07 23:18:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/lib/bootstrap/less/mixins.less".' in /var/www/lawsome/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/lib/boot...')
+#1 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/lawsome/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/lib/bootstrap/less/mixins.less
+HTTP_REFERER=http://lawsome.loc/
+---
+2013/02/07 23:18:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /var/www/lawsome/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/lawsome/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/07 23:18:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/lib/bootstrap/less/mixins.less".' in /var/www/lawsome/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/lib/boot...')
+#1 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/lawsome/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/lib/bootstrap/less/mixins.less
+HTTP_REFERER=http://lawsome.loc/user/login
+---
+2013/02/07 23:18:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /var/www/lawsome/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/lawsome/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/07 23:18:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/lib/bootstrap/less/mixins.less".' in /var/www/lawsome/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/lib/boot...')
+#1 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/lawsome/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/lib/bootstrap/less/mixins.less
+HTTP_REFERER=http://lawsome.loc/
+---
+2013/02/07 23:18:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /var/www/lawsome/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/lawsome/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/07 23:18:41 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in /var/www/lawsome/protected/modules/rights/components/RController.php:62
+Stack trace:
+#0 /var/www/lawsome/protected/modules/rights/components/RightsFilter.php(57): RController->accessDenied()
+#1 /var/www/lawsome/framework/web/filters/CFilter.php(38): RightsFilter->preFilter(Object(CFilterChain))
+#2 /var/www/lawsome/protected/modules/rights/components/RController.php(36): CFilter->filter(Object(CFilterChain))
+#3 /var/www/lawsome/framework/web/filters/CInlineFilter.php(58): RController->filterRights(Object(CFilterChain))
+#4 /var/www/lawsome/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 /var/www/lawsome/framework/web/CController.php(291): CFilterChain->run()
+#6 /var/www/lawsome/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /var/www/lawsome/framework/web/CWebApplication.php(282): CController->run('index')
+#8 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController('documents/index')
+#9 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#10 /var/www/lawsome/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/documents
+HTTP_REFERER=http://lawsome.loc/
+---
+2013/02/07 23:18:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/lib/bootstrap/less/mixins.less".' in /var/www/lawsome/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/lib/boot...')
+#1 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/lawsome/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/lib/bootstrap/less/mixins.less
+HTTP_REFERER=http://lawsome.loc/documents
+---
+2013/02/07 23:18:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /var/www/lawsome/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/lawsome/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/07 23:18:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/lib/bootstrap/less/mixins.less".' in /var/www/lawsome/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/lib/boot...')
+#1 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/lawsome/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/lib/bootstrap/less/mixins.less
+HTTP_REFERER=http://lawsome.loc/user/login
+---
+2013/02/07 23:18:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /var/www/lawsome/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/lawsome/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/07 23:18:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /var/www/lawsome/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/lawsome/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/07 23:18:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/lib/bootstrap/less/mixins.less".' in /var/www/lawsome/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/lib/boot...')
+#1 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/lawsome/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/lib/bootstrap/less/mixins.less
+HTTP_REFERER=http://lawsome.loc/
+---
+2013/02/07 23:18:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /var/www/lawsome/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/lawsome/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/07 23:18:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/lib/bootstrap/less/mixins.less".' in /var/www/lawsome/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/lib/boot...')
+#1 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/lawsome/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/lib/bootstrap/less/mixins.less
+HTTP_REFERER=http://lawsome.loc/user/login
+---
+2013/02/07 23:18:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /var/www/lawsome/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/lawsome/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/07 23:18:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /var/www/lawsome/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/lawsome/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/07 23:18:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/lib/bootstrap/less/mixins.less".' in /var/www/lawsome/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/lib/boot...')
+#1 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/lawsome/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/lib/bootstrap/less/mixins.less
+HTTP_REFERER=http://lawsome.loc/
+---
+2013/02/07 23:18:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /var/www/lawsome/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/lawsome/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/07 23:18:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /var/www/lawsome/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/lawsome/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/07 23:19:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/lib/bootstrap/less/mixins.less".' in /var/www/lawsome/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/lib/boot...')
+#1 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/lawsome/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/lib/bootstrap/less/mixins.less
+HTTP_REFERER=http://lawsome.loc/documents
+---
+2013/02/07 23:19:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /var/www/lawsome/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/lawsome/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/08 14:09:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/lib/bootstrap/less/mixins.less".' in /var/www/lawsome/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/lib/boot...')
+#1 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/lawsome/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/lib/bootstrap/less/mixins.less
+HTTP_REFERER=http://lawsome.loc/
+---
+2013/02/08 14:09:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /var/www/lawsome/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/lawsome/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/08 14:09:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/lib/bootstrap/less/mixins.less".' in /var/www/lawsome/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/lib/boot...')
+#1 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/lawsome/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/lib/bootstrap/less/mixins.less
+HTTP_REFERER=http://lawsome.loc/documents
+---
+2013/02/08 14:09:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /var/www/lawsome/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/lawsome/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/08 14:09:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/lib/bootstrap/less/mixins.less".' in /var/www/lawsome/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/lib/boot...')
+#1 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/lawsome/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/lib/bootstrap/less/mixins.less
+HTTP_REFERER=http://lawsome.loc/documents/1
+---
+2013/02/08 14:09:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /var/www/lawsome/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/lawsome/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/08 14:16:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/lib/bootstrap/less/mixins.less".' in /var/www/lawsome/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/lib/boot...')
+#1 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/lawsome/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/lib/bootstrap/less/mixins.less
+HTTP_REFERER=http://lawsome.loc/documents/1
+---
+2013/02/08 14:16:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /var/www/lawsome/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/lawsome/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/08 14:16:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/lib/bootstrap/less/mixins.less".' in /var/www/lawsome/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/lib/boot...')
+#1 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/lawsome/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/lib/bootstrap/less/mixins.less
+HTTP_REFERER=http://lawsome.loc/documents/1
+---
+2013/02/08 14:16:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /var/www/lawsome/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/lawsome/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/08 14:16:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/lib/bootstrap/less/mixins.less".' in /var/www/lawsome/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/lib/boot...')
+#1 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/lawsome/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/lib/bootstrap/less/mixins.less
+HTTP_REFERER=http://lawsome.loc/documents/1
+---
+2013/02/08 14:16:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /var/www/lawsome/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/lawsome/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/08 14:17:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/lib/bootstrap/less/mixins.less".' in /var/www/lawsome/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/lib/boot...')
+#1 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/lawsome/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/lib/bootstrap/less/mixins.less
+HTTP_REFERER=http://lawsome.loc/documents/1
+---
+2013/02/08 14:17:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /var/www/lawsome/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/lawsome/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/08 14:17:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /var/www/lawsome/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/lawsome/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/08 14:22:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/lib/bootstrap/less/mixins.less".' in /var/www/lawsome/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/lib/boot...')
+#1 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/lawsome/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/lib/bootstrap/less/mixins.less
+HTTP_REFERER=http://lawsome.loc/documents/1
+---
+2013/02/08 14:22:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /var/www/lawsome/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/lawsome/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/08 14:22:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/lib/bootstrap/less/mixins.less".' in /var/www/lawsome/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/lib/boot...')
+#1 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/lawsome/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/lib/bootstrap/less/mixins.less
+HTTP_REFERER=http://lawsome.loc/documents/1
+---
+2013/02/08 14:22:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /var/www/lawsome/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/lawsome/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/08 14:22:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/lib/bootstrap/less/mixins.less".' in /var/www/lawsome/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/lib/boot...')
+#1 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/lawsome/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/lib/bootstrap/less/mixins.less
+HTTP_REFERER=http://lawsome.loc/documents/1
+---
+2013/02/08 14:22:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /var/www/lawsome/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/lawsome/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/08 14:22:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /var/www/lawsome/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/lawsome/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/08 14:22:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/lib/bootstrap/less/mixins.less".' in /var/www/lawsome/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/lib/boot...')
+#1 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/lawsome/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/lib/bootstrap/less/mixins.less
+HTTP_REFERER=http://lawsome.loc/documents/1
+---
+2013/02/08 14:22:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /var/www/lawsome/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/lawsome/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/08 14:22:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/lib/bootstrap/less/mixins.less".' in /var/www/lawsome/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/lib/boot...')
+#1 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/lawsome/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/lib/bootstrap/less/mixins.less
+HTTP_REFERER=http://lawsome.loc/documents/1
+---
+2013/02/08 14:22:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /var/www/lawsome/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/lawsome/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/08 14:26:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/lib/bootstrap/less/mixins.less".' in /var/www/lawsome/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/lib/boot...')
+#1 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/lawsome/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/lib/bootstrap/less/mixins.less
+HTTP_REFERER=http://lawsome.loc/documents/1
+---
+2013/02/08 14:26:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /var/www/lawsome/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/lawsome/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/08 14:30:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/lib/bootstrap/less/mixins.less".' in /var/www/lawsome/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/lib/boot...')
+#1 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/lawsome/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/lib/bootstrap/less/mixins.less
+HTTP_REFERER=http://lawsome.loc/documents/1
+---
+2013/02/08 14:30:45 [error] [php] Creating default object from empty value (/var/www/lawsome/protected/controllers/AnnotationsController.php:165)
+Stack trace:
+#0 /var/www/lawsome/framework/web/CController.php(308): CInlineAction->runWithParams()
+#1 /var/www/lawsome/framework/web/filters/CFilterChain.php(133): AnnotationsController->runAction()
+#2 /var/www/lawsome/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /var/www/lawsome/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#4 /var/www/lawsome/framework/web/filters/CInlineFilter.php(58): AnnotationsController->filterAccessControl()
+#5 /var/www/lawsome/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#6 /var/www/lawsome/protected/extensions/restfullyii/components/ERestController.php(117): CFilterChain->run()
+#7 /var/www/lawsome/framework/web/filters/CInlineFilter.php(58): AnnotationsController->filterRestAccessRules()
+#8 /var/www/lawsome/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#9 /var/www/lawsome/framework/web/CController.php(291): CFilterChain->run()
+#10 /var/www/lawsome/framework/web/CController.php(265): AnnotationsController->runActionWithFilters()
+#11 /var/www/lawsome/framework/web/CWebApplication.php(282): AnnotationsController->run()
+#12 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#13 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#14 /var/www/lawsome/index.php(13): CWebApplication->run()
+REQUEST_URI=/api/annotations/?document_id=3
+in /var/www/lawsome/protected/controllers/AnnotationsController.php (165)
+in /var/www/lawsome/protected/extensions/restfullyii/components/ERestController.php (200)
+in /var/www/lawsome/protected/extensions/restfullyii/components/ERestController.php (117)
+2013/02/08 14:30:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /var/www/lawsome/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/lawsome/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/08 14:30:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /var/www/lawsome/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/lawsome/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/08 14:44:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/lib/bootstrap/less/mixins.less".' in /var/www/lawsome/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/lib/boot...')
+#1 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/lawsome/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/lib/bootstrap/less/mixins.less
+HTTP_REFERER=http://lawsome.loc/documents/1
+---
+2013/02/08 14:44:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /var/www/lawsome/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/lawsome/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/08 14:44:40 [error] [php] Undefined variable: model (/var/www/lawsome/protected/controllers/AnnotationsController.php:168)
+Stack trace:
+#0 /var/www/lawsome/framework/web/CController.php(308): CInlineAction->runWithParams()
+#1 /var/www/lawsome/framework/web/filters/CFilterChain.php(133): AnnotationsController->runAction()
+#2 /var/www/lawsome/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /var/www/lawsome/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#4 /var/www/lawsome/framework/web/filters/CInlineFilter.php(58): AnnotationsController->filterAccessControl()
+#5 /var/www/lawsome/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#6 /var/www/lawsome/protected/extensions/restfullyii/components/ERestController.php(117): CFilterChain->run()
+#7 /var/www/lawsome/framework/web/filters/CInlineFilter.php(58): AnnotationsController->filterRestAccessRules()
+#8 /var/www/lawsome/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#9 /var/www/lawsome/framework/web/CController.php(291): CFilterChain->run()
+#10 /var/www/lawsome/framework/web/CController.php(265): AnnotationsController->runActionWithFilters()
+#11 /var/www/lawsome/framework/web/CWebApplication.php(282): AnnotationsController->run()
+#12 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#13 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#14 /var/www/lawsome/index.php(13): CWebApplication->run()
+REQUEST_URI=/api/annotations/?document_id=3
+in /var/www/lawsome/protected/controllers/AnnotationsController.php (168)
+in /var/www/lawsome/protected/extensions/restfullyii/components/ERestController.php (200)
+in /var/www/lawsome/protected/extensions/restfullyii/components/ERestController.php (117)
+2013/02/08 14:44:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /var/www/lawsome/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/lawsome/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/08 14:45:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/lib/bootstrap/less/mixins.less".' in /var/www/lawsome/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/lib/boot...')
+#1 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/lawsome/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/lib/bootstrap/less/mixins.less
+HTTP_REFERER=http://lawsome.loc/documents/1
+---
+2013/02/08 14:45:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /var/www/lawsome/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/lawsome/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/08 14:45:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /var/www/lawsome/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/lawsome/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/08 14:45:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/lib/bootstrap/less/mixins.less".' in /var/www/lawsome/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/lib/boot...')
+#1 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/lawsome/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/lib/bootstrap/less/mixins.less
+HTTP_REFERER=http://lawsome.loc/documents/1
+---
+2013/02/08 14:45:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /var/www/lawsome/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/lawsome/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/08 14:45:36 [error] [php] Trying to get property of non-object (/var/www/lawsome/protected/extensions/restfullyii/components/ERestController.php:172)
+Stack trace:
+#0 /var/www/lawsome/protected/extensions/restfullyii/components/ERestController.php(200): AnnotationsController->doRestList()
+#1 /var/www/lawsome/framework/web/actions/CInlineAction.php(49): AnnotationsController->actionRestList()
+#2 /var/www/lawsome/framework/web/CController.php(308): CInlineAction->runWithParams()
+#3 /var/www/lawsome/framework/web/filters/CFilterChain.php(133): AnnotationsController->runAction()
+#4 /var/www/lawsome/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#5 /var/www/lawsome/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#6 /var/www/lawsome/framework/web/filters/CInlineFilter.php(58): AnnotationsController->filterAccessControl()
+#7 /var/www/lawsome/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#8 /var/www/lawsome/protected/extensions/restfullyii/components/ERestController.php(117): CFilterChain->run()
+#9 /var/www/lawsome/framework/web/filters/CInlineFilter.php(58): AnnotationsController->filterRestAccessRules()
+#10 /var/www/lawsome/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#11 /var/www/lawsome/framework/web/CController.php(291): CFilterChain->run()
+#12 /var/www/lawsome/framework/web/CController.php(265): AnnotationsController->runActionWithFilters()
+#13 /var/www/lawsome/framework/web/CWebApplication.php(282): AnnotationsController->run()
+#14 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#15 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#16 /var/www/lawsome/index.php(13): CWebApplication->run()
+REQUEST_URI=/api/annotations/?document_id=3
+in /var/www/lawsome/protected/extensions/restfullyii/components/ERestController.php (172)
+in /var/www/lawsome/protected/controllers/AnnotationsController.php (168)
+in /var/www/lawsome/protected/extensions/restfullyii/components/ERestController.php (200)
+2013/02/08 14:45:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /var/www/lawsome/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/lawsome/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/08 14:46:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/lib/bootstrap/less/mixins.less".' in /var/www/lawsome/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/lib/boot...')
+#1 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/lawsome/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/lib/bootstrap/less/mixins.less
+HTTP_REFERER=http://lawsome.loc/documents/1
+---
+2013/02/08 14:46:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /var/www/lawsome/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/lawsome/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/08 14:46:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/lib/bootstrap/less/mixins.less".' in /var/www/lawsome/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/lib/boot...')
+#1 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/lawsome/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/lib/bootstrap/less/mixins.less
+HTTP_REFERER=http://lawsome.loc/documents/1
+---
+2013/02/08 14:46:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /var/www/lawsome/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/lawsome/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/08 14:46:49 [error] [php] Invalid argument supplied for foreach() (/var/www/lawsome/protected/extensions/restfullyii/components/ERestHelperScopes.php:56)
+Stack trace:
+#0 /var/www/lawsome/framework/db/ar/CActiveRecord.php(225): Annotations->__call()
+#1 /var/www/lawsome/protected/controllers/AnnotationsController.php(165): Annotations->__call()
+#2 /var/www/lawsome/protected/controllers/AnnotationsController.php(165): Annotations->filter()
+#3 /var/www/lawsome/protected/extensions/restfullyii/components/ERestController.php(200): AnnotationsController->doRestList()
+#4 /var/www/lawsome/framework/web/actions/CInlineAction.php(49): AnnotationsController->actionRestList()
+#5 /var/www/lawsome/framework/web/CController.php(308): CInlineAction->runWithParams()
+#6 /var/www/lawsome/framework/web/filters/CFilterChain.php(133): AnnotationsController->runAction()
+#7 /var/www/lawsome/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#8 /var/www/lawsome/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#9 /var/www/lawsome/framework/web/filters/CInlineFilter.php(58): AnnotationsController->filterAccessControl()
+#10 /var/www/lawsome/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#11 /var/www/lawsome/protected/extensions/restfullyii/components/ERestController.php(117): CFilterChain->run()
+#12 /var/www/lawsome/framework/web/filters/CInlineFilter.php(58): AnnotationsController->filterRestAccessRules()
+#13 /var/www/lawsome/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#14 /var/www/lawsome/framework/web/CController.php(291): CFilterChain->run()
+#15 /var/www/lawsome/framework/web/CController.php(265): AnnotationsController->runActionWithFilters()
+#16 /var/www/lawsome/framework/web/CWebApplication.php(282): AnnotationsController->run()
+#17 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#18 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#19 /var/www/lawsome/index.php(13): CWebApplication->run()
+REQUEST_URI=/api/annotations/?document_id=3
+in /var/www/lawsome/protected/extensions/restfullyii/components/ERestHelperScopes.php (56)
+in /var/www/lawsome/protected/controllers/AnnotationsController.php (165)
+in /var/www/lawsome/protected/controllers/AnnotationsController.php (165)
+2013/02/08 14:46:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /var/www/lawsome/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/lawsome/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/08 14:47:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/lib/bootstrap/less/mixins.less".' in /var/www/lawsome/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/lib/boot...')
+#1 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/lawsome/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/lib/bootstrap/less/mixins.less
+HTTP_REFERER=http://lawsome.loc/documents/1
+---
+2013/02/08 14:47:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /var/www/lawsome/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/lawsome/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/08 14:53:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/lib/bootstrap/less/mixins.less".' in /var/www/lawsome/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/lib/boot...')
+#1 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/lawsome/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/lib/bootstrap/less/mixins.less
+HTTP_REFERER=http://lawsome.loc/documents/1
+---
+2013/02/08 14:53:12 [error] [php] Illegal string offset 'property' (/var/www/lawsome/protected/extensions/restfullyii/components/ERestHelperScopes.php:58)
+Stack trace:
+#0 /var/www/lawsome/framework/db/ar/CActiveRecord.php(225): Annotations->__call()
+#1 /var/www/lawsome/protected/controllers/AnnotationsController.php(166): Annotations->__call()
+#2 /var/www/lawsome/protected/controllers/AnnotationsController.php(166): Annotations->filter()
+#3 /var/www/lawsome/protected/extensions/restfullyii/components/ERestController.php(200): AnnotationsController->doRestList()
+#4 /var/www/lawsome/framework/web/actions/CInlineAction.php(49): AnnotationsController->actionRestList()
+#5 /var/www/lawsome/framework/web/CController.php(308): CInlineAction->runWithParams()
+#6 /var/www/lawsome/framework/web/filters/CFilterChain.php(133): AnnotationsController->runAction()
+#7 /var/www/lawsome/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#8 /var/www/lawsome/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#9 /var/www/lawsome/framework/web/filters/CInlineFilter.php(58): AnnotationsController->filterAccessControl()
+#10 /var/www/lawsome/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#11 /var/www/lawsome/protected/extensions/restfullyii/components/ERestController.php(117): CFilterChain->run()
+#12 /var/www/lawsome/framework/web/filters/CInlineFilter.php(58): AnnotationsController->filterRestAccessRules()
+#13 /var/www/lawsome/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#14 /var/www/lawsome/framework/web/CController.php(291): CFilterChain->run()
+#15 /var/www/lawsome/framework/web/CController.php(265): AnnotationsController->runActionWithFilters()
+#16 /var/www/lawsome/framework/web/CWebApplication.php(282): AnnotationsController->run()
+#17 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#18 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#19 /var/www/lawsome/index.php(13): CWebApplication->run()
+REQUEST_URI=/api/annotations/?document_id=3
+in /var/www/lawsome/protected/extensions/restfullyii/components/ERestHelperScopes.php (58)
+in /var/www/lawsome/protected/controllers/AnnotationsController.php (166)
+in /var/www/lawsome/protected/controllers/AnnotationsController.php (166)
+2013/02/08 14:53:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /var/www/lawsome/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/lawsome/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/08 14:53:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /var/www/lawsome/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/lawsome/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/08 14:54:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/lib/bootstrap/less/mixins.less".' in /var/www/lawsome/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/lib/boot...')
+#1 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/lawsome/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/lib/bootstrap/less/mixins.less
+HTTP_REFERER=http://lawsome.loc/documents/1
+---
+2013/02/08 14:54:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /var/www/lawsome/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/lawsome/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/08 14:54:09 [error] [php] Illegal string offset 'property' (/var/www/lawsome/protected/extensions/restfullyii/components/ERestHelperScopes.php:59)
+Stack trace:
+#0 /var/www/lawsome/framework/db/ar/CActiveRecord.php(225): Annotations->__call()
+#1 /var/www/lawsome/protected/controllers/AnnotationsController.php(166): Annotations->__call()
+#2 /var/www/lawsome/protected/controllers/AnnotationsController.php(166): Annotations->filter()
+#3 /var/www/lawsome/protected/extensions/restfullyii/components/ERestController.php(200): AnnotationsController->doRestList()
+#4 /var/www/lawsome/framework/web/actions/CInlineAction.php(49): AnnotationsController->actionRestList()
+#5 /var/www/lawsome/framework/web/CController.php(308): CInlineAction->runWithParams()
+#6 /var/www/lawsome/framework/web/filters/CFilterChain.php(133): AnnotationsController->runAction()
+#7 /var/www/lawsome/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#8 /var/www/lawsome/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#9 /var/www/lawsome/framework/web/filters/CInlineFilter.php(58): AnnotationsController->filterAccessControl()
+#10 /var/www/lawsome/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#11 /var/www/lawsome/protected/extensions/restfullyii/components/ERestController.php(117): CFilterChain->run()
+#12 /var/www/lawsome/framework/web/filters/CInlineFilter.php(58): AnnotationsController->filterRestAccessRules()
+#13 /var/www/lawsome/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#14 /var/www/lawsome/framework/web/CController.php(291): CFilterChain->run()
+#15 /var/www/lawsome/framework/web/CController.php(265): AnnotationsController->runActionWithFilters()
+#16 /var/www/lawsome/framework/web/CWebApplication.php(282): AnnotationsController->run()
+#17 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#18 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#19 /var/www/lawsome/index.php(13): CWebApplication->run()
+REQUEST_URI=/api/annotations/?document_id=3
+in /var/www/lawsome/protected/extensions/restfullyii/components/ERestHelperScopes.php (59)
+in /var/www/lawsome/protected/controllers/AnnotationsController.php (166)
+in /var/www/lawsome/protected/controllers/AnnotationsController.php (166)
+2013/02/08 14:54:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /var/www/lawsome/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/lawsome/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/08 14:55:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/lib/bootstrap/less/mixins.less".' in /var/www/lawsome/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/lib/boot...')
+#1 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/lawsome/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/lib/bootstrap/less/mixins.less
+HTTP_REFERER=http://lawsome.loc/documents/1
+---
+2013/02/08 14:55:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /var/www/lawsome/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/lawsome/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/08 14:55:44 [error] [php] Illegal string offset 'property' (/var/www/lawsome/protected/extensions/restfullyii/components/ERestHelperScopes.php:58)
+Stack trace:
+#0 /var/www/lawsome/framework/db/ar/CActiveRecord.php(225): Annotations->__call()
+#1 /var/www/lawsome/protected/controllers/AnnotationsController.php(166): Annotations->__call()
+#2 /var/www/lawsome/protected/controllers/AnnotationsController.php(166): Annotations->filter()
+#3 /var/www/lawsome/protected/extensions/restfullyii/components/ERestController.php(200): AnnotationsController->doRestList()
+#4 /var/www/lawsome/framework/web/actions/CInlineAction.php(49): AnnotationsController->actionRestList()
+#5 /var/www/lawsome/framework/web/CController.php(308): CInlineAction->runWithParams()
+#6 /var/www/lawsome/framework/web/filters/CFilterChain.php(133): AnnotationsController->runAction()
+#7 /var/www/lawsome/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#8 /var/www/lawsome/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#9 /var/www/lawsome/framework/web/filters/CInlineFilter.php(58): AnnotationsController->filterAccessControl()
+#10 /var/www/lawsome/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#11 /var/www/lawsome/protected/extensions/restfullyii/components/ERestController.php(117): CFilterChain->run()
+#12 /var/www/lawsome/framework/web/filters/CInlineFilter.php(58): AnnotationsController->filterRestAccessRules()
+#13 /var/www/lawsome/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#14 /var/www/lawsome/framework/web/CController.php(291): CFilterChain->run()
+#15 /var/www/lawsome/framework/web/CController.php(265): AnnotationsController->runActionWithFilters()
+#16 /var/www/lawsome/framework/web/CWebApplication.php(282): AnnotationsController->run()
+#17 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#18 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#19 /var/www/lawsome/index.php(13): CWebApplication->run()
+REQUEST_URI=/api/annotations/?document_id=3
+in /var/www/lawsome/protected/extensions/restfullyii/components/ERestHelperScopes.php (58)
+in /var/www/lawsome/protected/controllers/AnnotationsController.php (166)
+in /var/www/lawsome/protected/controllers/AnnotationsController.php (166)
+2013/02/08 14:55:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /var/www/lawsome/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/lawsome/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/08 14:56:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/lib/bootstrap/less/mixins.less".' in /var/www/lawsome/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/lib/boot...')
+#1 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/lawsome/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/lib/bootstrap/less/mixins.less
+HTTP_REFERER=http://lawsome.loc/documents/1
+---
+2013/02/08 14:56:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /var/www/lawsome/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/lawsome/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/08 14:56:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/lib/bootstrap/less/mixins.less".' in /var/www/lawsome/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/lib/boot...')
+#1 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/lawsome/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/lib/bootstrap/less/mixins.less
+HTTP_REFERER=http://lawsome.loc/documents/1
+---
+2013/02/08 14:56:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /var/www/lawsome/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/lawsome/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/08 14:56:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/lib/bootstrap/less/mixins.less".' in /var/www/lawsome/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/lib/boot...')
+#1 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/lawsome/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/lib/bootstrap/less/mixins.less
+HTTP_REFERER=http://lawsome.loc/documents/1
+---
+2013/02/08 14:56:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /var/www/lawsome/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/lawsome/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/08 14:56:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /var/www/lawsome/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/lawsome/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/08 14:58:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/lib/bootstrap/less/mixins.less".' in /var/www/lawsome/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/lib/boot...')
+#1 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/lawsome/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/lib/bootstrap/less/mixins.less
+HTTP_REFERER=http://lawsome.loc/documents/1
+---
+2013/02/08 14:58:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /var/www/lawsome/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/lawsome/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/08 14:58:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /var/www/lawsome/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/lawsome/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/08 14:59:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/lib/bootstrap/less/mixins.less".' in /var/www/lawsome/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/lib/boot...')
+#1 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/lawsome/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/lib/bootstrap/less/mixins.less
+HTTP_REFERER=http://lawsome.loc/documents/1
+---
+2013/02/08 14:59:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /var/www/lawsome/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/lawsome/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/08 14:59:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in /var/www/lawsome/protected/controllers/DocumentsController.php:164
+Stack trace:
+#0 /var/www/lawsome/protected/controllers/DocumentsController.php(56): DocumentsController->loadModel('2')
+#1 [internal function]: DocumentsController->actionView('2')
+#2 /var/www/lawsome/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs(Object(DocumentsController), Array)
+#3 /var/www/lawsome/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(DocumentsController), Object(ReflectionMethod), Array)
+#4 /var/www/lawsome/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /var/www/lawsome/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 /var/www/lawsome/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#7 /var/www/lawsome/protected/modules/rights/components/RController.php(36): CFilter->filter(Object(CFilterChain))
+#8 /var/www/lawsome/framework/web/filters/CInlineFilter.php(58): RController->filterRights(Object(CFilterChain))
+#9 /var/www/lawsome/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 /var/www/lawsome/framework/web/CController.php(291): CFilterChain->run()
+#11 /var/www/lawsome/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /var/www/lawsome/framework/web/CWebApplication.php(282): CController->run('view')
+#13 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController('documents/view')
+#14 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#15 /var/www/lawsome/index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/documents/2
+---
+2013/02/08 14:59:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/lib/bootstrap/less/mixins.less".' in /var/www/lawsome/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/lib/boot...')
+#1 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/lawsome/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/lib/bootstrap/less/mixins.less
+HTTP_REFERER=http://lawsome.loc/documents/2
+---
+2013/02/08 14:59:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /var/www/lawsome/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/lawsome/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/08 14:59:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in /var/www/lawsome/protected/controllers/DocumentsController.php:164
+Stack trace:
+#0 /var/www/lawsome/protected/controllers/DocumentsController.php(56): DocumentsController->loadModel('3')
+#1 [internal function]: DocumentsController->actionView('3')
+#2 /var/www/lawsome/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs(Object(DocumentsController), Array)
+#3 /var/www/lawsome/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(DocumentsController), Object(ReflectionMethod), Array)
+#4 /var/www/lawsome/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /var/www/lawsome/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 /var/www/lawsome/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#7 /var/www/lawsome/protected/modules/rights/components/RController.php(36): CFilter->filter(Object(CFilterChain))
+#8 /var/www/lawsome/framework/web/filters/CInlineFilter.php(58): RController->filterRights(Object(CFilterChain))
+#9 /var/www/lawsome/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 /var/www/lawsome/framework/web/CController.php(291): CFilterChain->run()
+#11 /var/www/lawsome/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /var/www/lawsome/framework/web/CWebApplication.php(282): CController->run('view')
+#13 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController('documents/view')
+#14 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#15 /var/www/lawsome/index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/documents/3
+---
+2013/02/08 14:59:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/lib/bootstrap/less/mixins.less".' in /var/www/lawsome/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/lib/boot...')
+#1 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/lawsome/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/lib/bootstrap/less/mixins.less
+HTTP_REFERER=http://lawsome.loc/documents/3
+---
+2013/02/08 14:59:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /var/www/lawsome/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/lawsome/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/08 14:59:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/lib/bootstrap/less/mixins.less".' in /var/www/lawsome/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/lib/boot...')
+#1 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/lawsome/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/lib/bootstrap/less/mixins.less
+HTTP_REFERER=http://lawsome.loc/documents/4
+---
+2013/02/08 14:59:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /var/www/lawsome/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/lawsome/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
