@@ -1,5 +1,5 @@
 <?php
-class ERestController extends Controller
+class ERestController extends RController
 {
 	Const APPLICATION_ID = 'REST';
 	Const C404NOTFOUND = 'HTTP/1.1 404 Not Found';

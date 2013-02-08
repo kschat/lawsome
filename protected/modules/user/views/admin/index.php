@@ -5,6 +5,7 @@ $this->breadcrumbs=array(
 );
 
 $this->menu=array(
+	array('label'=>'Operations'),
     array('label'=>UserModule::t('Create User'), 'url'=>array('create')),
     array('label'=>UserModule::t('Manage Users'), 'url'=>array('admin')),
     array('label'=>UserModule::t('Manage Profile Field'), 'url'=>array('profileField/admin')),
@@ -36,7 +37,7 @@ $('.search-form form').submit(function(){
 )); ?>
 </div><!-- search-form -->
 
-<?php $this->widget('zii.widgets.grid.CGridView', array(
+<?php $this->widget('bootstrap.widgets.TbGridView', array(
 	'id'=>'user-grid',
 	'dataProvider'=>$model->search(),
 	'filter'=>$model,

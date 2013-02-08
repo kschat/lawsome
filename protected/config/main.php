@@ -40,13 +40,13 @@ return array(
             'hash' => 'md5',
  
             # send activation email
-            'sendActivationMail' => true,
+            'sendActivationMail' => false,
  
             # allow access for non-activated users
             'loginNotActiv' => false,
  
             # activate user on registration (only sendActivationMail = false)
-            'activeAfterRegister' => false,
+            'activeAfterRegister' => true,
  
             # automatically login from registration
             'autoLogin' => true,
@@ -90,7 +90,7 @@ return array(
 		'urlManager'=>array(
 			'urlFormat'=>'path',
 			'showScriptName'=> false,
-			'caseSensitive' => false,
+			//'caseSensitive' => false,
 			'rules'=>array(
 				'api/<controller:\w+>'=>array('<controller>/restList', 'verb'=>'GET'),
 				'api/<controller:\w+>/<id:\w+>'=>array('<controller>/restView', 'verb'=>'GET'),
@@ -100,11 +100,11 @@ return array(
 				array('<controller>/restCreate', 'pattern'=>'api/<controller:\w+>', 'verb'=>'POST'),
 				array('<controller>/restCreate', 'pattern'=>'api/<controller:\w+>/<id:\w+>', 'verb'=>'POST'),
 				''=>'site/index',
-				'documents/'=>'documents/index',
-				'login'=>'site/login',
-				'logout'=>'site/logout',
-				'<action>' => 'site/<action>',
-				'<controller>' => '<controller>/index',
+				'documents/'=>'/documents/index',
+				//'<action>' => 'site/<action>',
+				//'<controller>' => '<controller>/index',
+				//'authItem/permissions'=>'authItem/permissions',
+				//'<controller:\w+>/<action:\w+>'=>'rights/<controller:\w+>/<action:\w+>',
 				'<controller:\w+>/<id:\d+>'=>'<controller>/view',
 				'<controller:\w+>/<action:\w+>/<id:\d+>'=>'<controller>/<action>',
 				'<controller:\w+>/<action:\w+>'=>'<controller>/<action>',

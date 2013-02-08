@@ -246,6 +246,17 @@ div.search-form
 	margin-bottom: 20px;
 }
 
+.document-button {
+	overflow: hidden;
+	background-color: white;
+	border: 1px solid #CACACA;
+
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+
+	margin-bottom: 20px;
+}
+
 .annotation-list-container {
 	width: 100%;
 	background-color: white;

@@ -8,16 +8,13 @@
             </div><!-- content -->
         </div>
         <div class="span3">
-            <div id="sidebar">
+            <div class="well" id="sidebar" style="position: fixed; width: inherit;">
             <?php
-                $this->beginWidget('zii.widgets.CPortlet', array(
-                    'title'=>'Operations',
-                ));
                 $this->widget('bootstrap.widgets.TbMenu', array(
+                    'type'=>'list',
                     'items'=>$this->menu,
-                    'htmlOptions'=>array('class'=>'operations'),
+                    //'htmlOptions'=>array('class'=>'operations'),
                 ));
-                $this->endWidget();
             ?>
             </div><!-- sidebar -->
         </div>

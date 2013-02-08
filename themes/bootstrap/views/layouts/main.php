@@ -23,7 +23,7 @@ $this->widget('bootstrap.widgets.TbNavbar',array(
         array(
             'class'=>'bootstrap.widgets.TbMenu',
             'items'=>array(
-                array('label'=>'Documents', 'url'=>array('documents/index')),
+                array('label'=>'Documents', 'url'=>array('/documents/index')),
                 array('label'=>'About', 'url'=>array('/site/page', 'view'=>'about')),
                 array('label'=>'Contact', 'url'=>array('/site/contact')),
             ),
@@ -34,8 +34,11 @@ $this->widget('bootstrap.widgets.TbNavbar',array(
         	'items' => array(
                 array('label'=>'Login', 'url'=>array('/user/login'), 'visible'=>Yii::app()->user->isGuest),
                 array('label'=>Yii::app()->user->name, 'url'=>'#', 'visible'=>!Yii::app()->user->isGuest, 'items'=>array(
-                        array('label'=>'Add a document', 'url'=>'/documents/create'),
-                        array('label'=>'Manage documents', 'url'=>'/documents/admin'),
+                        array('label'=>'View profile', 'url'=>'/user/profile'),
+                        array('label'=>'Edit profile', 'url'=>'/user/profile/edit'),
+                        '---',
+                        array('label'=>'Add a document', 'url'=>array('/documents/create'), 'visible'=>Yii::app()->user->isSuperuser===true?true:false),
+                        array('label'=>'Manage documents', 'url'=>array('/documents/admin'), 'visible'=>Yii::app()->user->isSuperuser===true?true:false),
                         '---',
                         array('label'=>'Logout', 'url'=>'/user/logout'),
                     ),
@@ -49,7 +52,8 @@ $this->widget('bootstrap.widgets.TbNavbar',array(
 <div class="container" id="page">
 
 	<?php echo $content; ?>
-
+    <?php echo Yii::app()->user->isGuest;
+    ?>
 	<div class="clear"></div>
 
 	<div id="footer">

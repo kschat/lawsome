@@ -1,7 +1,5 @@
 <?php $this->pageTitle=Yii::app()->name . ' - '.UserModule::t("Profile");
-$this->breadcrumbs=array(
-	UserModule::t("Profile"),
-);
+
 $this->menu=array(
 	((UserModule::isAdmin())
 		?array('label'=>UserModule::t('Manage Users'), 'url'=>array('/user/admin'))
@@ -17,40 +15,32 @@ $this->menu=array(
 <div class="success">
 	<?php echo Yii::app()->user->getFlash('profileMessage'); ?>
 </div>
-<?php endif; ?>
-<table class="dataGrid">
-	<tr>
-		<th class="label"><?php echo CHtml::encode($model->getAttributeLabel('username')); ?></th>
-	    <td><?php echo CHtml::encode($model->username); ?></td>
-	</tr>
-	<?php 
-		$profileFields=ProfileField::model()->forOwner()->sort()->findAll();
-		if ($profileFields) {
-			foreach($profileFields as $field) {
-				//echo "<pre>"; print_r($profile); die();
-			?>
-	<tr>
-		<th class="label"><?php echo CHtml::encode(UserModule::t($field->title)); ?></th>
-    	<td><?php echo (($field->widgetView($profile))?$field->widgetView($profile):CHtml::encode((($field->range)?Profile::range($field->range,$profile->getAttribute($field->varname)):$profile->getAttribute($field->varname)))); ?></td>
-	</tr>
-			<?php
-			}//$profile->getAttribute($field->varname)
-		}
-	?>
-	<tr>
-		<th class="label"><?php echo CHtml::encode($model->getAttributeLabel('email')); ?></th>
-    	<td><?php echo CHtml::encode($model->email); ?></td>
-	</tr>
-	<tr>
-		<th class="label"><?php echo CHtml::encode($model->getAttributeLabel('create_at')); ?></th>
-    	<td><?php echo $model->create_at; ?></td>
-	</tr>
-	<tr>
-		<th class="label"><?php echo CHtml::encode($model->getAttributeLabel('lastvisit_at')); ?></th>
-    	<td><?php echo $model->lastvisit_at; ?></td>
-	</tr>
-	<tr>
-		<th class="label"><?php echo CHtml::encode($model->getAttributeLabel('status')); ?></th>
-    	<td><?php echo CHtml::encode(User::itemAlias("UserStatus",$model->status)); ?></td>
-	</tr>
-</table>
+<?php endif;
+
+$attributes = array();
+$profileFields=ProfileField::model()->forOwner()->sort()->findAll();
+if ($profileFields) {
+	$i=0;
+	foreach($profileFields as $field) {
+		$attributes[$i++] = array('label'=>CHtml::encode(UserModule::t($field->title)), 
+			'value'=>(($field->widgetView($profile))? $field->widgetView($profile): 
+						CHtml::encode((($field->range)?Profile::range($field->range,$profile->getAttribute($field->varname)):
+							$profile->getAttribute($field->varname)))));
+	}
+}
+
+
+
+$this->widget('bootstrap.widgets.TbDetailView', array(
+	'data'=>$model,
+	'attributes'=>array(
+		array('name' => 'username', 'label' => 'Username'),
+		$attributes[0],
+		$attributes[1],
+		array('name' => 'email', 'label' =>'Email'),
+		array('name' => 'create_at', 'label' =>'Registration date'),
+		array('name' => 'lastvisit_at', 'label' =>'Last visit'),
+		array('name' => 'status', 'label' =>'Status'),
+	),
+));
+?>
