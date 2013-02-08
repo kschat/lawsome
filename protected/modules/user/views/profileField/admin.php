@@ -73,7 +73,7 @@ $('.search-form form').submit(function(){
 		),
 		//*/
 		array(
-			'class'=>'CButtonColumn',
+			'class'=>'bootstrap.widgets.TbButtonColumn',
 		),
 	),
 )); ?>

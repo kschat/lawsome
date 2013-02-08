@@ -6,7 +6,9 @@ $this->breadcrumbs=array(
 
 <h1><?php echo UserModule::t("Registration"); ?></h1>
 
-<?php if(Yii::app()->user->hasFlash('registration')): ?>
+<?php
+if(Yii::app()->user->isSuperuser===true):
+	if(Yii::app()->user->hasFlash('registration')): ?>
 <div class="success">
 <?php echo Yii::app()->user->getFlash('registration'); ?>
 </div>
@@ -97,4 +99,9 @@ $this->breadcrumbs=array(
 
 <?php $this->endWidget(); ?>
 </div><!-- form -->
+<?php 
+endif; 
+else:
+?>
+<p>Requestion is currently disabled. Please contact an admin to register for lawsome.</p>
 <?php endif; ?>

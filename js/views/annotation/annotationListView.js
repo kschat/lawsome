@@ -17,10 +17,16 @@ define([
 		el: 	$('.annotation-list-container'),
 
 		render: 		function(e) {
-			_.each(this.model.models, function(m) {
-				//Appends a new AnnotationListItemView to the list and adds it to the DOM
-				this.$el.append(new AnnotationListItemView({model: m, vent: this.options.vent}).render().el);
-			}, this);
+			if(this.model.models.length === 0) {
+				this.$el.html('<div class="panel">There aren\'t any annotations on this document.</div>');
+			}
+			else {
+				this.$el.html('');
+				_.each(this.model.models, function(m) {
+					//Appends a new AnnotationListItemView to the list and adds it to the DOM
+					this.$el.append(new AnnotationListItemView({model: m, vent: this.options.vent}).render().el);
+				}, this);
+			}
 
 			return this;
 		},

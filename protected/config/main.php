@@ -85,7 +85,7 @@ return array(
 		'authManager'=>array(
 			'class'=>'RDbAuthManager',
 			'connectionID'=>'db',
-			'defaultRoles'=>array('Authenticated', 'Guest'),
+			'defaultRoles'=>array('Guest'),
 		),
 		'urlManager'=>array(
 			'urlFormat'=>'path',

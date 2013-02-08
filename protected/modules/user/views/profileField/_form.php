@@ -102,10 +102,10 @@
 		<?php 
 			$this->widget('bootstrap.widgets.TbButton',array(
 	            'buttonType'=>'submit',
-	            'type'=>'primary',
+	            'type'=>'success',
 	            'label'=>$model->isNewRecord ? UserModule::t('Create') : UserModule::t('Save'),
 	        ));
-		//echo CHtml::submitButton($model->isNewRecord ? UserModule::t('Create') : UserModule::t('Save')); ?>
+		?>
 	</div>
 
 <?php echo CHtml::endForm(); ?>

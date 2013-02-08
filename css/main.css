@@ -359,3 +359,15 @@ div.search-form
 	color: white;
 	border-radius: 0 !important;
 }
+
+.panel {
+	overflow: hidden;
+	background-color: white;
+	border: 1px solid #CACACA;
+
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+
+	padding: 18px;
+	margin-bottom: 20px;
+}

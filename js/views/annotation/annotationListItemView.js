@@ -15,7 +15,6 @@ define([
 		template: 	_.template(AnnotationTemplate),
 
 		render: 	function(e) {
-			console.log(this.model.attributes);
 			this.$el.html(this.template(this.model.toJSON()));
 
 			return this;
@@ -25,7 +24,6 @@ define([
 			//Parse the annotation ID from the clicked elements id attribute
 			var annotationID = $(e).attr('id').split('-')[1];
 			this.$el.find('#accordion-' + annotationID).addClass('annotation-hover');
-			//this.$el.find('#accordion-' + this.model.attributes.id).addClass('annotation-hover');
 		},
 
 		annotationHoverOff: 	function(e) {

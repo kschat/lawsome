@@ -42,7 +42,11 @@ $this->menu=array(
 	
 	
 	<div class=" submit">
-	<?php echo CHtml::submitButton(UserModule::t("Save")); ?>
+	<?php $this->widget('bootstrap.widgets.TbButton',array(
+	            'buttonType'=>'submit',
+	            'type'=>'success',
+	            'label'=>UserModule::t('Save'),
+	        )); ?>
 	</div>
 
 <?php $this->endWidget(); ?>
