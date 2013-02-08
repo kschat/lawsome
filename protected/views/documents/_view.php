@@ -8,10 +8,8 @@ if($index % 3 == 0) {
 
 ?>
 
-<div class="document span4" style="text-align: center;">
-	<i class="icon-file"></i>
-	<?php echo CHtml::link(CHtml::encode($data->title), array('view', 'id'=>$data->id)); ?>
-	<br />
+<div class="document-button span4">
+	<?php echo CHtml::link('<i class="icon-file"></i>'.CHtml::encode($data->title), array('view', 'id'=>$data->id)); ?>
 
 </div>
 <?php 

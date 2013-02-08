@@ -34,11 +34,18 @@ $this->widget('bootstrap.widgets.TbNavbar',array(
         	'items' => array(
                 array('label'=>'Login', 'url'=>array('/user/login'), 'visible'=>Yii::app()->user->isGuest),
                 array('label'=>Yii::app()->user->name, 'url'=>'#', 'visible'=>!Yii::app()->user->isGuest, 'items'=>array(
-                        array('label'=>'View profile', 'url'=>'/user/profile'),
-                        array('label'=>'Edit profile', 'url'=>'/user/profile/edit'),
+                        array('label'=>'Profile settings'),
+                        array('label'=>'View profile', 'url'=>array('/user/profile')),
+                        array('label'=>'Edit profile', 'url'=>array('/user/profile/edit')),
+                        array('label'=>'Manage profile fields', 'url'=>array('/user/profileField/admin'), 'visible'=>Yii::app()->user->isSuperuser===true?true:false),
                         '---',
+                        array('label'=>'Doc management'),
                         array('label'=>'Add a document', 'url'=>array('/documents/create'), 'visible'=>Yii::app()->user->isSuperuser===true?true:false),
                         array('label'=>'Manage documents', 'url'=>array('/documents/admin'), 'visible'=>Yii::app()->user->isSuperuser===true?true:false),
+                        '---',
+                        array('label'=>'User management'),
+                        array('label'=>'Add a user', 'url'=>array('/user/admin/create'), 'visible'=>Yii::app()->user->isSuperuser===true?true:false),
+                        array('label'=>'Manage users', 'url'=>array('/user/admin'), 'visible'=>Yii::app()->user->isSuperuser===true?true:false),
                         '---',
                         array('label'=>'Logout', 'url'=>'/user/logout'),
                     ),
@@ -48,20 +55,33 @@ $this->widget('bootstrap.widgets.TbNavbar',array(
 	)
 ));
 ?>
+    <?php if(Yii::app()->request->requestUri == '/') {
+        echo $content; ?>
 
-<div class="container" id="page">
+        <div class="clear"></div>
 
-	<?php echo $content; ?>
-    <?php echo Yii::app()->user->isGuest;
+        <div id="footer">
+            Copyright &copy; <?php echo date('Y'); ?> by Lawsome.<br/>
+            All Rights Reserved.<br/>
+        </div><!-- footer -->
+    <?php
+    }
+    else {
     ?>
-	<div class="clear"></div>
+    <div class="container" id="page">
 
-	<div id="footer">
-		Copyright &copy; <?php echo date('Y'); ?> by Lawsome.<br/>
-		All Rights Reserved.<br/>
-	</div><!-- footer -->
+    	<?php echo $content; ?>
+        <?php //echo '<pre>'; print_r(Yii::app()->request->requestUri); echo '</pre>';
+        ?>
+    	<div class="clear"></div>
 
-</div><!-- page -->
+    	<div id="footer">
+    		Copyright &copy; <?php echo date('Y'); ?> by Lawsome.<br/>
+    		All Rights Reserved.<br/>
+    	</div><!-- footer -->
+
+    </div><!-- page -->
+    <?php } ?>
 
 </body>
 </html>
