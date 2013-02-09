@@ -26,14 +26,14 @@ $this->widget('bootstrap.widgets.TbNavbar', array(
 
 	<div class="document-main-container">
 			<div class="document-container" id="document-<?php echo $model->id; ?>">
-			<div class="document span9">
+			<div class="document span8">
 				<h2 style="text-align: center;"><?php echo $model->title; ?></h2>
 				<p>
 					<?php echo $model->text; ?>
 				</p>
 			</div>
 
-			<div class="span3">
+			<div class="span4">
 				<div class="annotation-list-container">
 					
 				</div>

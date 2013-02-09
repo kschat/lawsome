@@ -22,6 +22,11 @@ class RWebUser extends WebUser
 			$this->isSuperuser = true;
 	}
 
+	public function tableName()
+	{
+		return 'users';
+	}
+	
 	/**
 	* Performs access check for this user.
 	* Overloads the parent method in order to allow superusers access implicitly.
