@@ -18,7 +18,31 @@ $this->widget('bootstrap.widgets.TbNavbar', array(
     ),
     'htmlOptions'=>array('class'=>'subnav'),
 ));
+
+$this->beginWidget('bootstrap.widgets.TbModal', array('id'=>'comment-modal')); 
 ?>
+
+<div class="modal-header">
+    <a class="close" data-dismiss="modal">&times;</a>
+    <h4>Comments</h4>
+</div>
+ 
+<div class="modal-body">
+    <?php $this->renderPartial('_ajaxComments', array(
+    	'model'=>$annoModel
+    	)); ?>
+</div>
+ 
+<div class="modal-footer">
+    <?php $this->widget('bootstrap.widgets.TbButton', array(
+        'label'=>'Close',
+        'url'=>'#',
+        'htmlOptions'=>array('data-dismiss'=>'modal'),
+    )); ?>
+</div>
+ 
+<?php $this->endWidget(); ?>
+
 <script>$('.subnav').find('.brand').hide();</script>
 <div class="container">
 	<section id="add-annotation" class="add-annotation-container" style="padding-top: 80px; margin-top: -80px;">
@@ -35,33 +59,9 @@ $this->widget('bootstrap.widgets.TbNavbar', array(
 
 			<div class="span4">
 				<div class="annotation-list-container">
-					
 				</div>
 			</div>
 		</div>
-		<!--
-		<div class="span3">
-			<div class="annotation-list-container">
-				<div class="annotation-container">
-				</div>
-
-				<div class="accordion" id="annotation-list">
-				</div>
-				<!--
-				<div class="annotation-container">
-					<img class="annotation-user-image" src="<?php echo Yii::app()->baseUrl. '/images/profile-default.gif'; ?>" />
-					<div class="annotation-body">
-						<div class="annotation-title">
-							<b>Title</b>
-						</div>
-						<div class="annotation">
-							<p>"On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms"</p>
-						</div>
-					</div>
-				</div>
-			
-			</div>
-		</div>-->
 	</div>
 </div>
 

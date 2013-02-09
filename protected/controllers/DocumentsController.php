@@ -52,9 +52,21 @@ class DocumentsController extends ERestController
 	 */
 	public function actionView($id)
 	{
+		$annoModel = new Annotations();
+
 		$this->render('view',array(
 			'model'=>$this->loadModel($id),
+			'annoModel'=>$annoModel
 		));
+	}
+
+	public function actionLoadComments() {
+		$annoModel = new Annotations();
+		if(isset($_GET['annotation-id'])) {
+			$annoModel = Annotations::model()->findByPk($_GET['annotation-id']);
+		}
+
+		$this->renderPartial('_ajaxComments', array('model'=>$annoModel), false, true);
 	}
 
 	/**
