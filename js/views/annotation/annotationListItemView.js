@@ -44,7 +44,7 @@ define([
 		},
 
 		loadComments: 			function(e) {
-			console.log($(e.target).attr('id'));
+//			console.log($('ext-comment-submit'));
 			$.ajax({
 				type: 'GET',
 				url: 	'/documents/loadComments?annotation-id=' + $(e.target).attr('id'),

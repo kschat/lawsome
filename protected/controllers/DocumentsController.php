@@ -65,7 +65,7 @@ class DocumentsController extends ERestController
 		if(isset($_GET['annotation-id'])) {
 			$annoModel = Annotations::model()->findByPk($_GET['annotation-id']);
 		}
-
+		
 		$this->renderPartial('_ajaxComments', array('model'=>$annoModel), false, true);
 	}
 
