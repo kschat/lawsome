@@ -6,7 +6,7 @@
 * @copyright Copyright &copy; 2010 Christoffer Niska
 * @since 0.5
 */
-class RWebUser extends CWebUser
+class RWebUser extends WebUser
 {
 	/**
 	* Actions to be taken after logging in.
@@ -22,6 +22,11 @@ class RWebUser extends CWebUser
 			$this->isSuperuser = true;
 	}
 
+	public function tableName()
+	{
+		return 'users';
+	}
+	
 	/**
 	* Performs access check for this user.
 	* Overloads the parent method in order to allow superusers access implicitly.

@@ -70,7 +70,7 @@ class AuthItemController extends RController
 			),
 		);
 	}
-
+	
 	/**
 	* Displays the permission overview.
 	*/

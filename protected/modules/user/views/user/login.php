@@ -1,8 +1,5 @@
 <?php
 $this->pageTitle=Yii::app()->name . ' - '.UserModule::t("Login");
-$this->breadcrumbs=array(
-	UserModule::t("Login"),
-);
 ?>
 
 <h1><?php echo UserModule::t("Login"); ?></h1>
@@ -31,16 +28,20 @@ $this->breadcrumbs=array(
 		<?php echo CHtml::activePasswordField($model,'password') ?>
 	
 		<p class="hint">
-		<?php echo CHtml::link(UserModule::t("Register"),Yii::app()->getModule('user')->registrationUrl); ?> | <?php echo CHtml::link(UserModule::t("Lost Password?"),Yii::app()->getModule('user')->recoveryUrl); ?>
+		<?php //echo CHtml::link(UserModule::t("Register"),Yii::app()->getModule('user')->registrationUrl); ?> <?php echo CHtml::link(UserModule::t("Lost Password?"),Yii::app()->getModule('user')->recoveryUrl); ?>
 		</p>
 	
 	<div class="rememberMe">
 		<?php echo CHtml::activeCheckBox($model,'rememberMe'); ?>
 		<?php echo CHtml::activeLabelEx($model,'rememberMe'); ?>
 	</div>
-
+	<br />
 	<div class="submit">
-		<?php echo CHtml::submitButton(UserModule::t("Login")); ?>
+		<?php $this->widget('bootstrap.widgets.TbButton',array(
+	            'buttonType'=>'submit',
+	            'type'=>'success',
+	            'label'=>UserModule::t('Login'),
+	        )); ?>
 	</div>
 	
 <?php echo CHtml::endForm(); ?>

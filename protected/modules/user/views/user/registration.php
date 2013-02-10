@@ -6,7 +6,9 @@ $this->breadcrumbs=array(
 
 <h1><?php echo UserModule::t("Registration"); ?></h1>
 
-<?php if(Yii::app()->user->hasFlash('registration')): ?>
+<?php
+if(Yii::app()->user->isSuperuser===true):
+	if(Yii::app()->user->hasFlash('registration')): ?>
 <div class="success">
 <?php echo Yii::app()->user->getFlash('registration'); ?>
 </div>
@@ -27,13 +29,13 @@ $this->breadcrumbs=array(
 	
 	<?php echo $form->errorSummary(array($model,$profile)); ?>
 	
-	<div class="row">
+	<div class="">
 	<?php echo $form->labelEx($model,'username'); ?>
 	<?php echo $form->textField($model,'username'); ?>
 	<?php echo $form->error($model,'username'); ?>
 	</div>
 	
-	<div class="row">
+	<div class="">
 	<?php echo $form->labelEx($model,'password'); ?>
 	<?php echo $form->passwordField($model,'password'); ?>
 	<?php echo $form->error($model,'password'); ?>
@@ -42,13 +44,13 @@ $this->breadcrumbs=array(
 	</p>
 	</div>
 	
-	<div class="row">
+	<div class="">
 	<?php echo $form->labelEx($model,'verifyPassword'); ?>
 	<?php echo $form->passwordField($model,'verifyPassword'); ?>
 	<?php echo $form->error($model,'verifyPassword'); ?>
 	</div>
 	
-	<div class="row">
+	<div class="">
 	<?php echo $form->labelEx($model,'email'); ?>
 	<?php echo $form->textField($model,'email'); ?>
 	<?php echo $form->error($model,'email'); ?>
@@ -59,7 +61,7 @@ $this->breadcrumbs=array(
 		if ($profileFields) {
 			foreach($profileFields as $field) {
 			?>
-	<div class="row">
+	<div class="">
 		<?php echo $form->labelEx($profile,$field->varname); ?>
 		<?php 
 		if ($widgetEdit = $field->widgetEdit($profile)) {
@@ -79,7 +81,7 @@ $this->breadcrumbs=array(
 		}
 ?>
 	<?php if (UserModule::doCaptcha('registration')): ?>
-	<div class="row">
+	<div class="">
 		<?php echo $form->labelEx($model,'verifyCode'); ?>
 		
 		<?php $this->widget('CCaptcha'); ?>
@@ -91,10 +93,15 @@ $this->breadcrumbs=array(
 	</div>
 	<?php endif; ?>
 	
-	<div class="row submit">
+	<div class=" submit">
 		<?php echo CHtml::submitButton(UserModule::t("Register")); ?>
 	</div>
 
 <?php $this->endWidget(); ?>
 </div><!-- form -->
+<?php 
+endif; 
+else:
+?>
+<p>Requestion is currently disabled. Please contact an admin to register for lawsome.</p>
 <?php endif; ?>

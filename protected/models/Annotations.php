@@ -94,4 +94,16 @@ class Annotations extends CActiveRecord
 			'criteria'=>$criteria,
 		));
 	}
+
+	public function behaviors() {
+		return array(
+			'commentable' => array(
+                'class' => 'ext.comment-module.behaviors.CommentableBehavior',
+                // name of the table created in last step
+                'mapTable' => 'annotation_comments',
+                // name of column to related model id in mapTable
+                'mapRelatedColumn' => 'postId'
+            ),
+		);
+	}
 }

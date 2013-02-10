@@ -37,7 +37,7 @@ body
 	margin: 10px 20px;
 	font-size: 0.8em;
 	text-align: center;
-	border-top: 1px solid #C9E0ED;
+	border-top: 1px solid #eeeeee;
 }
 
 #logo
@@ -246,6 +246,33 @@ div.search-form
 	margin-bottom: 20px;
 }
 
+.document-button {
+	overflow: hidden;
+	height: auto;
+	background-color: white;
+	border: 1px solid #CACACA;
+
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.document-button:hover {
+	border: 1px solid #B9B9B9;
+}
+
+.document-button > a {
+	display: block;
+	padding: 20px 0;
+}
+
+.document-button > a:hover {
+	text-decoration: none;
+	color: #000000;
+}
+
 .annotation-list-container {
 	width: 100%;
 	background-color: white;
@@ -254,7 +281,13 @@ div.search-form
 .add-annotation-container {
 	position: relative;
 	overflow: hidden;
-	padding: 5px;
+	background-color: white;
+
+	border: 1px solid #CACACA;
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+
+	padding: 18px;
 	margin-bottom: 20px;
 }
 
@@ -305,4 +338,36 @@ div.search-form
 
 .subnav {
 	top: 40px !important;
+}
+
+#sidebar {
+	padding-right: 0;
+}
+
+.landing-unit {
+	background-image: url('../images/lawbooks-R-G.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 50% top;
+	height: 300px;
+	padding: 60%;
+	margin-left: -1px;
+}
+
+.landing-unit-content {
+	margin-top: 70px;
+	color: white;
+	border-radius: 0 !important;
+}
+
+.panel {
+	overflow: hidden;
+	background-color: white;
+	border: 1px solid #CACACA;
+
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+
+	padding: 18px;
+	margin-bottom: 20px;
 }

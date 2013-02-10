@@ -34,7 +34,7 @@ define([
 				}
 			});
 
-			annotationListView.model.fetch({ data: { document_id: 2 } });
+			annotationListView.model.fetch({ data: { document_id: dID } });
 			$('#annotation-list').html(annotationListView.render());
 			//console.log(this.vent);
 		}

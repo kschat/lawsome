@@ -26,32 +26,27 @@ $this->menu=array(
 )); ?>
 
 	<p class="note"><?php echo UserModule::t('Fields with <span class="required">*</span> are required.'); ?></p>
-	<?php echo $form->errorSummary($model); ?>
+	<?php echo $form->errorSummary($model, null, null, array('class'=>'alert in alert-block fade alert-error')); ?>
 	
-	<div class="row">
 	<?php echo $form->labelEx($model,'oldPassword'); ?>
 	<?php echo $form->passwordField($model,'oldPassword'); ?>
-	<?php echo $form->error($model,'oldPassword'); ?>
-	</div>
-	
-	<div class="row">
+
 	<?php echo $form->labelEx($model,'password'); ?>
 	<?php echo $form->passwordField($model,'password'); ?>
-	<?php echo $form->error($model,'password'); ?>
 	<p class="hint">
-	<?php echo UserModule::t("Minimal password length 4 symbols."); ?>
+		<?php echo UserModule::t("Minimal password length 4 symbols."); ?>
 	</p>
-	</div>
-	
-	<div class="row">
+
 	<?php echo $form->labelEx($model,'verifyPassword'); ?>
 	<?php echo $form->passwordField($model,'verifyPassword'); ?>
-	<?php echo $form->error($model,'verifyPassword'); ?>
-	</div>
 	
 	
-	<div class="row submit">
-	<?php echo CHtml::submitButton(UserModule::t("Save")); ?>
+	<div class=" submit">
+	<?php $this->widget('bootstrap.widgets.TbButton',array(
+	            'buttonType'=>'submit',
+	            'type'=>'success',
+	            'label'=>UserModule::t('Save'),
+	        )); ?>
 	</div>
 
 <?php $this->endWidget(); ?>

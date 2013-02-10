@@ -31,6 +31,25 @@ return array(
 				'bootstrap.gii'
 			),
 		),
+		'comment'=>array(
+            'class'=>'ext.comment-module.CommentModule',
+            'commentableModels'=>array(
+                // define commentable Models here (key is an alias that must be lower case, value is the model class name)
+                'post'=>'Annotations',
+            ),
+            // set this to the class name of the model that represents your users
+            'userModelClass'=>'User',
+            // set this to the username attribute of User model class
+            'userNameAttribute'=>'username',
+            // set this to the email attribute of User model class
+            'userEmailAttribute'=>'email',
+            // you can set controller filters that will be added to the comment controller {@see CController::filters()}
+//          'controllerFilters'=>array(),
+            // you can set accessRules that will be added to the comment controller {@see CController::accessRules()}
+//          'controllerAccessRules'=>array(),
+            // you can extend comment class and use your extended one, set path alias here
+//          'commentModelClass'=>'comment.models.Comment',
+        ),
 		'user'=>array(
 			'tableUsers'=>'users',
 			'tableProfiles'=>'profiles',
@@ -40,13 +59,13 @@ return array(
             'hash' => 'md5',
  
             # send activation email
-            'sendActivationMail' => true,
+            'sendActivationMail' => false,
  
             # allow access for non-activated users
             'loginNotActiv' => false,
  
             # activate user on registration (only sendActivationMail = false)
-            'activeAfterRegister' => false,
+            'activeAfterRegister' => true,
  
             # automatically login from registration
             'autoLogin' => true,
@@ -85,12 +104,11 @@ return array(
 		'authManager'=>array(
 			'class'=>'RDbAuthManager',
 			'connectionID'=>'db',
-			'defaultRoles'=>array('Authenticated', 'Guest'),
+			'defaultRoles'=>array('Guest'),
 		),
 		'urlManager'=>array(
 			'urlFormat'=>'path',
 			'showScriptName'=> false,
-			'caseSensitive' => false,
 			'rules'=>array(
 				'api/<controller:\w+>'=>array('<controller>/restList', 'verb'=>'GET'),
 				'api/<controller:\w+>/<id:\w+>'=>array('<controller>/restView', 'verb'=>'GET'),
@@ -100,11 +118,7 @@ return array(
 				array('<controller>/restCreate', 'pattern'=>'api/<controller:\w+>', 'verb'=>'POST'),
 				array('<controller>/restCreate', 'pattern'=>'api/<controller:\w+>/<id:\w+>', 'verb'=>'POST'),
 				''=>'site/index',
-				'documents/'=>'documents/index',
-				'login'=>'site/login',
-				'logout'=>'site/logout',
-				'<action>' => 'site/<action>',
-				'<controller>' => '<controller>/index',
+				'documents/'=>'/documents/index',
 				'<controller:\w+>/<id:\d+>'=>'<controller>/view',
 				'<controller:\w+>/<action:\w+>/<id:\d+>'=>'<controller>/<action>',
 				'<controller:\w+>/<action:\w+>'=>'<controller>/<action>',

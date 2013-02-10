@@ -160,6 +160,14 @@ class AnnotationsController extends ERestController
 		));
 	}
 
+	public function doRestList() {
+		$filter = array();
+		if(isset($_GET['document_id'])) {
+			$filter[] = array('property'=>'document_id', 'value'=>$_GET['document_id']);
+		}
+		$this->renderJson($this->getModel()->with($this->nestedRelations)->filter($filter)->orderBy($this->restSort)->limit($this->restLimit)->offset($this->restOffset)->findAll());
+	}
+
 	/**
 	 * Returns the data model based on the primary key given in the GET variable.
 	 * If the data model is not found, an HTTP exception will be raised.

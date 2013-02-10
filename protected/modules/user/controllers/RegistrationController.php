@@ -45,8 +45,12 @@ class RegistrationController extends Controller
 						$model->verifyPassword=UserModule::encrypting($model->verifyPassword);
 						$model->superuser=0;
 						$model->status=((Yii::app()->controller->module->activeAfterRegister)?User::STATUS_ACTIVE:User::STATUS_NOACTIVE);
-						
+
 						if ($model->save()) {
+							// assign user the 'Authenticated' role for Rights module
+        					$authenticatedName = Rights::module()->authenticatedName;
+        					Rights::assign($authenticatedName, $model->id);
+
 							$profile->user_id=$model->id;
 							$profile->save();
 							if (Yii::app()->controller->module->sendActivationMail) {

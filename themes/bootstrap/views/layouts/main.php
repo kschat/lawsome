@@ -23,7 +23,7 @@ $this->widget('bootstrap.widgets.TbNavbar',array(
         array(
             'class'=>'bootstrap.widgets.TbMenu',
             'items'=>array(
-                array('label'=>'Documents', 'url'=>array('documents/index')),
+                array('label'=>'Documents', 'url'=>array('/documents/index')),
                 array('label'=>'About', 'url'=>array('/site/page', 'view'=>'about')),
                 array('label'=>'Contact', 'url'=>array('/site/contact')),
             ),
@@ -34,8 +34,18 @@ $this->widget('bootstrap.widgets.TbNavbar',array(
         	'items' => array(
                 array('label'=>'Login', 'url'=>array('/user/login'), 'visible'=>Yii::app()->user->isGuest),
                 array('label'=>Yii::app()->user->name, 'url'=>'#', 'visible'=>!Yii::app()->user->isGuest, 'items'=>array(
-                        array('label'=>'Add a document', 'url'=>'/documents/create'),
-                        array('label'=>'Manage documents', 'url'=>'/documents/admin'),
+                        array('label'=>'Profile settings'),
+                        array('label'=>'View profile', 'url'=>array('/user/profile')),
+                        array('label'=>'Edit profile', 'url'=>array('/user/profile/edit')),
+                        array('label'=>'Manage profile fields', 'url'=>array('/user/profileField/admin'), 'visible'=>Yii::app()->user->isSuperuser===true?true:false),
+                        '---',
+                        array('label'=>'Doc management'),
+                        array('label'=>'Add a document', 'url'=>array('/documents/create'), 'visible'=>Yii::app()->user->isSuperuser===true?true:false),
+                        array('label'=>'Manage documents', 'url'=>array('/documents/admin'), 'visible'=>Yii::app()->user->isSuperuser===true?true:false),
+                        '---',
+                        array('label'=>'User management'),
+                        array('label'=>'Add a user', 'url'=>array('/user/admin/create'), 'visible'=>Yii::app()->user->isSuperuser===true?true:false),
+                        array('label'=>'Manage users', 'url'=>array('/user/admin'), 'visible'=>Yii::app()->user->isSuperuser===true?true:false),
                         '---',
                         array('label'=>'Logout', 'url'=>'/user/logout'),
                     ),
@@ -45,19 +55,33 @@ $this->widget('bootstrap.widgets.TbNavbar',array(
 	)
 ));
 ?>
+    <?php if(Yii::app()->request->requestUri == '/') {
+        echo $content; ?>
 
-<div class="container" id="page">
+        <div class="clear"></div>
 
-	<?php echo $content; ?>
+        <div id="footer">
+            Copyright &copy; <?php echo date('Y'); ?> by Lawsome.<br/>
+            All Rights Reserved.<br/>
+        </div><!-- footer -->
+    <?php
+    }
+    else {
+    ?>
+    <div class="container" id="page">
 
-	<div class="clear"></div>
+    	<?php echo $content; ?>
+        <?php //echo '<pre>'; print_r(Yii::app()->request->requestUri); echo '</pre>';
+        ?>
+    	<div class="clear"></div>
 
-	<div id="footer">
-		Copyright &copy; <?php echo date('Y'); ?> by Lawsome.<br/>
-		All Rights Reserved.<br/>
-	</div><!-- footer -->
+    	<div id="footer">
+    		Copyright &copy; <?php echo date('Y'); ?> by Lawsome.<br/>
+    		All Rights Reserved.<br/>
+    	</div><!-- footer -->
 
-</div><!-- page -->
+    </div><!-- page -->
+    <?php } ?>
 
 </body>
 </html>
