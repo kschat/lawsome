@@ -129,7 +129,7 @@ return array(
 			'connectionString' => 'sqlite:'.dirname(__FILE__).'/../data/testdrive.db',
 		),*/
 		'db'=>array(
-			'connectionString' => 'mysql:host=localhost;dbname=testYii',
+			'connectionString' => 'mysql:host=localhost;dbname=testyii',
 			'emulatePrepare' => true,
 			'username' => 'root',
 			'password' => 'root',
