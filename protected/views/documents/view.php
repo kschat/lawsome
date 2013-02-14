@@ -25,12 +25,15 @@ $this->beginWidget('bootstrap.widgets.TbModal', array('id'=>'comment-modal'));
     <a class="close" data-dismiss="modal">&times;</a>
     <h4>Comments</h4>
 </div>
- 
 <div class="modal-body">
-    <?php $this->renderPartial('_ajaxComments', array(
-    	'model'=>$annoModel
-    	)); ?>
 </div>
+<script>
+    $('#90').live('click', function() {
+        console.log($('#ext-comment-form'));
+    });
+
+    $('#ext-comment-submit').die('click');
+</script>
 <div class="modal-footer">
     <?php $this->widget('bootstrap.widgets.TbButton', array(
         'label'=>'Close',
