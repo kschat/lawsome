@@ -40,11 +40,11 @@ define([
 			//Parse the annotation ID from the clicked elements id attribute
 			var annotationID = $(e).attr('id').split('-')[1];
 			//Show the corrisponding accordion node
+			console.log(annotationID);
 			$('#collapse-' + annotationID).collapse('show');
 		},
 
 		loadComments: 			function(e) {
-//			console.log($('ext-comment-submit'));
 			$.ajax({
 				type: 'GET',
 				url: 	'/documents/loadComments?annotation-id=' + $(e.target).attr('id'),
@@ -54,8 +54,6 @@ define([
 					$('#comment-modal > .modal-body').html(xhr.responseText);
 				}
 			});
-
-			//return false;
 		}
 	});
 

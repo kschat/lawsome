@@ -11356,3 +11356,589 @@ Stack trace:
 #3 {main}
 REQUEST_URI=/favicon.ico
 ---
+2013/02/14 15:36:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/lib/bootstrap/less/mixins.less".' in /var/www/lawsome/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/lib/boot...')
+#1 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/lawsome/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/lib/bootstrap/less/mixins.less
+HTTP_REFERER=http://lawsome.loc/assets/e3ecaab1/css/yii.css
+---
+2013/02/14 15:36:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/lib/bootstrap/less/mixins.less".' in /var/www/lawsome/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/lib/boot...')
+#1 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/lawsome/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/lib/bootstrap/less/mixins.less
+HTTP_REFERER=http://lawsome.loc/assets/e3ecaab1/css/yii.css
+---
+2013/02/14 15:36:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/lib/bootstrap/less/mixins.less".' in /var/www/lawsome/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/lib/boot...')
+#1 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/lawsome/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/lib/bootstrap/less/mixins.less
+HTTP_REFERER=http://lawsome.loc/assets/e3ecaab1/css/yii.css
+---
+2013/02/14 15:37:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/lib/bootstrap/less/mixins.less".' in /var/www/lawsome/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/lib/boot...')
+#1 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/lawsome/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/lib/bootstrap/less/mixins.less
+HTTP_REFERER=http://lawsome.loc/assets/e3ecaab1/css/yii.css
+---
+2013/02/14 15:37:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/lib/bootstrap/less/mixins.less".' in /var/www/lawsome/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/lib/boot...')
+#1 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/lawsome/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/lib/bootstrap/less/mixins.less
+HTTP_REFERER=http://lawsome.loc/assets/e3ecaab1/css/yii.css
+---
+2013/02/14 15:37:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/lib/bootstrap/less/mixins.less".' in /var/www/lawsome/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/lib/boot...')
+#1 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/lawsome/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/lib/bootstrap/less/mixins.less
+HTTP_REFERER=http://lawsome.loc/assets/e3ecaab1/css/yii.css
+---
+2013/02/14 15:37:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/lib/bootstrap/less/mixins.less".' in /var/www/lawsome/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/lib/boot...')
+#1 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/lawsome/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/lib/bootstrap/less/mixins.less
+HTTP_REFERER=http://lawsome.loc/assets/e3ecaab1/css/yii.css
+---
+2013/02/14 15:38:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/lib/bootstrap/less/mixins.less".' in /var/www/lawsome/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/lib/boot...')
+#1 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/lawsome/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/lib/bootstrap/less/mixins.less
+HTTP_REFERER=http://lawsome.loc/assets/e3ecaab1/css/yii.css
+---
+2013/02/14 15:38:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/lib/bootstrap/less/mixins.less".' in /var/www/lawsome/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/lib/boot...')
+#1 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/lawsome/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/lib/bootstrap/less/mixins.less
+HTTP_REFERER=http://lawsome.loc/assets/e3ecaab1/css/yii.css
+---
+2013/02/14 15:38:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/lib/bootstrap/less/mixins.less".' in /var/www/lawsome/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/lib/boot...')
+#1 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/lawsome/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/lib/bootstrap/less/mixins.less
+HTTP_REFERER=http://lawsome.loc/assets/e3ecaab1/css/yii.css
+---
+2013/02/14 15:43:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/lib/bootstrap/less/mixins.less".' in /var/www/lawsome/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/lib/boot...')
+#1 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/lawsome/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/lib/bootstrap/less/mixins.less
+HTTP_REFERER=http://lawsome.loc/assets/e3ecaab1/css/yii.css
+---
+2013/02/14 15:44:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/lib/bootstrap/less/mixins.less".' in /var/www/lawsome/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/lib/boot...')
+#1 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/lawsome/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/lib/bootstrap/less/mixins.less
+HTTP_REFERER=http://lawsome.loc/assets/e3ecaab1/css/yii.css
+---
+2013/02/14 15:44:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/lib/bootstrap/less/mixins.less".' in /var/www/lawsome/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/lib/boot...')
+#1 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/lawsome/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/lib/bootstrap/less/mixins.less
+HTTP_REFERER=http://lawsome.loc/assets/e3ecaab1/css/yii.css
+---
+2013/02/14 15:44:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/lib/bootstrap/less/mixins.less".' in /var/www/lawsome/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/lib/boot...')
+#1 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/lawsome/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/lib/bootstrap/less/mixins.less
+HTTP_REFERER=http://lawsome.loc/assets/e3ecaab1/css/yii.css
+---
+2013/02/14 15:46:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/lib/bootstrap/less/mixins.less".' in /var/www/lawsome/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/lib/boot...')
+#1 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/lawsome/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/lib/bootstrap/less/mixins.less
+HTTP_REFERER=http://lawsome.loc/assets/e3ecaab1/css/yii.css
+---
+2013/02/14 15:46:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/lib/bootstrap/less/mixins.less".' in /var/www/lawsome/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/lib/boot...')
+#1 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/lawsome/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/lib/bootstrap/less/mixins.less
+HTTP_REFERER=http://lawsome.loc/assets/e3ecaab1/css/yii.css
+---
+2013/02/14 15:46:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/lib/bootstrap/less/mixins.less".' in /var/www/lawsome/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/lib/boot...')
+#1 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/lawsome/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/lib/bootstrap/less/mixins.less
+HTTP_REFERER=http://lawsome.loc/assets/e3ecaab1/css/yii.css
+---
+2013/02/14 15:52:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/lib/bootstrap/less/mixins.less".' in /var/www/lawsome/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/lib/boot...')
+#1 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/lawsome/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/lib/bootstrap/less/mixins.less
+HTTP_REFERER=http://lawsome.loc/assets/e3ecaab1/css/yii.css
+---
+2013/02/14 15:56:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/lib/bootstrap/less/mixins.less".' in /var/www/lawsome/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/lib/boot...')
+#1 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/lawsome/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/lib/bootstrap/less/mixins.less
+HTTP_REFERER=http://lawsome.loc/assets/e3ecaab1/css/yii.css
+---
+2013/02/14 15:56:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/lib/bootstrap/less/mixins.less".' in /var/www/lawsome/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/lib/boot...')
+#1 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/lawsome/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/lib/bootstrap/less/mixins.less
+HTTP_REFERER=http://lawsome.loc/assets/e3ecaab1/css/yii.css
+---
+2013/02/14 15:57:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/lib/bootstrap/less/mixins.less".' in /var/www/lawsome/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/lib/boot...')
+#1 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/lawsome/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/lib/bootstrap/less/mixins.less
+HTTP_REFERER=http://lawsome.loc/assets/e3ecaab1/css/yii.css
+---
+2013/02/14 15:57:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/lib/bootstrap/less/mixins.less".' in /var/www/lawsome/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/lib/boot...')
+#1 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/lawsome/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/lib/bootstrap/less/mixins.less
+HTTP_REFERER=http://lawsome.loc/assets/e3ecaab1/css/yii.css
+---
+2013/02/14 15:57:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/lib/bootstrap/less/mixins.less".' in /var/www/lawsome/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/lib/boot...')
+#1 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/lawsome/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/lib/bootstrap/less/mixins.less
+HTTP_REFERER=http://lawsome.loc/assets/e3ecaab1/css/yii.css
+---
+2013/02/14 16:02:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/lib/bootstrap/less/mixins.less".' in /var/www/lawsome/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/lib/boot...')
+#1 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/lawsome/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/lib/bootstrap/less/mixins.less
+HTTP_REFERER=http://lawsome.loc/assets/e3ecaab1/css/yii.css
+---
+2013/02/14 16:03:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/lib/bootstrap/less/mixins.less".' in /var/www/lawsome/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/lib/boot...')
+#1 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/lawsome/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/lib/bootstrap/less/mixins.less
+HTTP_REFERER=http://lawsome.loc/assets/e3ecaab1/css/yii.css
+---
+2013/02/14 16:03:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/lib/bootstrap/less/mixins.less".' in /var/www/lawsome/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/lib/boot...')
+#1 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/lawsome/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/lib/bootstrap/less/mixins.less
+HTTP_REFERER=http://lawsome.loc/assets/e3ecaab1/css/yii.css
+---
+2013/02/14 16:03:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/lib/bootstrap/less/mixins.less".' in /var/www/lawsome/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/lib/boot...')
+#1 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/lawsome/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/lib/bootstrap/less/mixins.less
+HTTP_REFERER=http://lawsome.loc/assets/e3ecaab1/css/yii.css
+---
+2013/02/14 16:04:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/lib/bootstrap/less/mixins.less".' in /var/www/lawsome/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/lib/boot...')
+#1 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/lawsome/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/lib/bootstrap/less/mixins.less
+HTTP_REFERER=http://lawsome.loc/assets/e3ecaab1/css/yii.css
+---
+2013/02/14 16:06:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/lib/bootstrap/less/mixins.less".' in /var/www/lawsome/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/lib/boot...')
+#1 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/lawsome/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/lib/bootstrap/less/mixins.less
+HTTP_REFERER=http://lawsome.loc/assets/e3ecaab1/css/yii.css
+---
+2013/02/14 16:06:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/lib/bootstrap/less/mixins.less".' in /var/www/lawsome/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/lib/boot...')
+#1 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/lawsome/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/lib/bootstrap/less/mixins.less
+HTTP_REFERER=http://lawsome.loc/assets/e3ecaab1/css/yii.css
+---
+2013/02/14 16:09:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/lib/bootstrap/less/mixins.less".' in /var/www/lawsome/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/lib/boot...')
+#1 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/lawsome/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/lib/bootstrap/less/mixins.less
+HTTP_REFERER=http://lawsome.loc/assets/e3ecaab1/css/yii.css
+---
+2013/02/14 16:09:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/lib/bootstrap/less/mixins.less".' in /var/www/lawsome/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/lib/boot...')
+#1 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/lawsome/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/lib/bootstrap/less/mixins.less
+HTTP_REFERER=http://lawsome.loc/assets/e3ecaab1/css/yii.css
+---
+2013/02/14 16:09:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/lib/bootstrap/less/mixins.less".' in /var/www/lawsome/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/lib/boot...')
+#1 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/lawsome/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/lib/bootstrap/less/mixins.less
+HTTP_REFERER=http://lawsome.loc/
+---
+2013/02/14 16:09:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /var/www/lawsome/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/lawsome/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/14 16:09:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/lib/bootstrap/less/mixins.less".' in /var/www/lawsome/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/lib/boot...')
+#1 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/lawsome/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/lib/bootstrap/less/mixins.less
+HTTP_REFERER=http://lawsome.loc/
+---
+2013/02/14 16:09:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /var/www/lawsome/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/lawsome/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/14 16:09:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/lib/bootstrap/less/mixins.less".' in /var/www/lawsome/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/lib/boot...')
+#1 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/lawsome/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/lib/bootstrap/less/mixins.less
+HTTP_REFERER=http://lawsome.loc/assets/e3ecaab1/css/yii.css
+---
+2013/02/14 16:10:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/lib/bootstrap/less/mixins.less".' in /var/www/lawsome/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/lib/boot...')
+#1 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/lawsome/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/lib/bootstrap/less/mixins.less
+HTTP_REFERER=http://lawsome.loc/assets/e3ecaab1/css/yii.css
+---
+2013/02/14 16:10:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/lib/bootstrap/less/mixins.less".' in /var/www/lawsome/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/lib/boot...')
+#1 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/lawsome/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/lib/bootstrap/less/mixins.less
+HTTP_REFERER=http://lawsome.loc/assets/e3ecaab1/css/yii.css
+---
+2013/02/14 16:10:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/lib/bootstrap/less/mixins.less".' in /var/www/lawsome/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/lib/boot...')
+#1 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/lawsome/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/lib/bootstrap/less/mixins.less
+HTTP_REFERER=http://lawsome.loc/
+---
+2013/02/14 16:10:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /var/www/lawsome/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/lawsome/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/14 16:10:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/lib/bootstrap/less/mixins.less".' in /var/www/lawsome/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/lib/boot...')
+#1 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/lawsome/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/lib/bootstrap/less/mixins.less
+HTTP_REFERER=http://lawsome.loc/user/login
+---
+2013/02/14 16:10:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /var/www/lawsome/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/lawsome/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/14 16:10:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/lib/bootstrap/less/mixins.less".' in /var/www/lawsome/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/lib/boot...')
+#1 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/lawsome/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/lib/bootstrap/less/mixins.less
+HTTP_REFERER=http://lawsome.loc/documents
+---
+2013/02/14 16:10:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /var/www/lawsome/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/lawsome/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/14 16:10:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /var/www/lawsome/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/lawsome/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/14 16:10:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/lib/bootstrap/less/mixins.less".' in /var/www/lawsome/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/lib/boot...')
+#1 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/lawsome/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/lib/bootstrap/less/mixins.less
+HTTP_REFERER=http://lawsome.loc/documents/4
+---
+2013/02/14 16:10:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /var/www/lawsome/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/lawsome/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/14 16:10:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/lib/bootstrap/less/mixins.less".' in /var/www/lawsome/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/lib/boot...')
+#1 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/lawsome/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/lib/bootstrap/less/mixins.less
+HTTP_REFERER=http://lawsome.loc/documents
+---
+2013/02/14 16:10:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /var/www/lawsome/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/lawsome/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/14 16:10:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/lib/bootstrap/less/mixins.less".' in /var/www/lawsome/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/lib/boot...')
+#1 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/lawsome/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/lib/bootstrap/less/mixins.less
+HTTP_REFERER=http://lawsome.loc/documents/1
+---
+2013/02/14 16:10:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /var/www/lawsome/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/lawsome/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/14 16:10:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/lib/bootstrap/less/mixins.less".' in /var/www/lawsome/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/lib/boot...')
+#1 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/lawsome/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/lib/bootstrap/less/mixins.less
+HTTP_REFERER=http://lawsome.loc/documents/1
+---
+2013/02/14 16:10:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /var/www/lawsome/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/lawsome/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/14 16:11:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/lib/bootstrap/less/mixins.less".' in /var/www/lawsome/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/lib/boot...')
+#1 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/lawsome/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/lib/bootstrap/less/mixins.less
+HTTP_REFERER=http://lawsome.loc/documents/1
+---
+2013/02/14 16:11:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /var/www/lawsome/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/lawsome/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/14 16:11:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /var/www/lawsome/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/lawsome/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/14 16:11:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/lib/bootstrap/less/mixins.less".' in /var/www/lawsome/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/lib/boot...')
+#1 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/lawsome/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/lib/bootstrap/less/mixins.less
+HTTP_REFERER=http://lawsome.loc/documents
+---
+2013/02/14 16:11:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /var/www/lawsome/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/lawsome/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/14 16:11:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /var/www/lawsome/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/lawsome/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/14 16:11:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/lib/bootstrap/less/mixins.less".' in /var/www/lawsome/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/lib/boot...')
+#1 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/lawsome/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/lib/bootstrap/less/mixins.less
+HTTP_REFERER=http://lawsome.loc/documents/5
+---
+2013/02/14 16:11:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /var/www/lawsome/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/lawsome/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/14 16:11:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/lib/bootstrap/less/mixins.less".' in /var/www/lawsome/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/lib/boot...')
+#1 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/lawsome/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/lib/bootstrap/less/mixins.less
+HTTP_REFERER=http://lawsome.loc/assets/e3ecaab1/css/yii.css
+---
+2013/02/14 16:12:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/lib/bootstrap/less/mixins.less".' in /var/www/lawsome/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/lib/boot...')
+#1 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/lawsome/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/lib/bootstrap/less/mixins.less
+HTTP_REFERER=http://lawsome.loc/assets/e3ecaab1/css/yii.css
+---
+2013/02/14 16:12:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/lib/bootstrap/less/mixins.less".' in /var/www/lawsome/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/lib/boot...')
+#1 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/lawsome/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/lib/bootstrap/less/mixins.less
+HTTP_REFERER=http://lawsome.loc/documents/5
+---
+2013/02/14 16:12:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /var/www/lawsome/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/lawsome/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/14 16:12:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /var/www/lawsome/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /var/www/lawsome/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/lawsome/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
