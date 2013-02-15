@@ -21,7 +21,6 @@ $this->widget('bootstrap.widgets.TbNavbar', array(
 
 $this->beginWidget('bootstrap.widgets.TbModal', array('id'=>'comment-modal')); 
 ?>
-
 <div class="modal-header">
     <a class="close" data-dismiss="modal">&times;</a>
     <h4>Comments</h4>
@@ -32,19 +31,6 @@ $this->beginWidget('bootstrap.widgets.TbModal', array('id'=>'comment-modal'));
     	'model'=>$annoModel
     	)); ?>
 </div>
-<script>
-
-jQuery.fn.preventDoubleSubmit = function() {
-  jQuery(this).submit(function() {
-    if (this.beenSubmitted)
-      return false;
-    else
-      this.beenSubmitted = true;
-  });
-};
-
-$('#ext-comment-submit').preventDoubleSubmit();
-</script>
 <div class="modal-footer">
     <?php $this->widget('bootstrap.widgets.TbButton', array(
         'label'=>'Close',
