@@ -23,7 +23,7 @@ define([
 		documentsAction: 	function(dID) {
 			if(typeof dID === 'undefined') { dID = 1; }
 
-			var documentView = new DocumentView( {model: new DocumentModel({id: dID, text: $('.document > p').text()}), vent: this.vent });
+			var documentView = new DocumentView( {model: new DocumentModel({id: dID, text: $('.document > div#document-text').html(), title: $('#document-title').text()}), vent: this.vent });
 			var addAnnotationView = new AddAnnotationView( { model: new AnnotationModel({document_id: dID}), vent: this.vent } );
 			var annotationListView = new AnnotationListView({ model: new AnnotationCollection(), vent: this.vent });
 

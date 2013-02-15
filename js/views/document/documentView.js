@@ -6,8 +6,10 @@ define([
 ], function($, _, Backbone, DocumentTemplate) {
 	var DocumentView = Backbone.View.extend({
 		initialize: 	function(options) {
-			_.bindAll(this, 'annotationAdded');
+			_.bindAll(this, 'annotationAdded', 'highlightText', 'unhighlightText');
 			this.options.vent.bind('annotationAdded', this.annotationAdded);
+			this.options.vent.bind('highlightAnnotation', this.highlightText);
+			this.options.vent.bind('unhighlightAnnotation', this.unhighlightText);
 
 			this.vent = options.vent;
 			this.render();
@@ -17,8 +19,8 @@ define([
 
 		events: 		{
 			'mouseup .document': 		'textSelected',
-			'mouseover .reference': 	'highlightText',
-			'mouseout .reference': 		'unhighlightText',
+			'mouseover .reference': 	'triggerHighlight',
+			'mouseout .reference': 		'triggerUnhighlight',
 			'click .reference': 		'annotationClicked'
 		},
 
@@ -32,7 +34,6 @@ define([
 		//Checks if the selected text was changed. If it was trigger the textSelected 
 		//action with this views model and it's context.
 		textSelected: 	function(e) {
-			console.log('t');
 			if(this.model.updateSelectedText(e)) {
 				this.vent.trigger('updatePreview', this.model);
 				var sel = this.model.getHighlightedText();
@@ -62,26 +63,34 @@ define([
 
 		annotationAdded: 	function(m) {
 			this.$el.find('.temp-highlight').removeClass().addClass('reference').attr('id', 'annotation-' + m.id);
-			this.model.set({text: $('.document > p').html()});
+			this.model.set({text: $('.document > div#document-text').html()});
+
 			this.model.save({}, {
 				success: 	function() {
-					console.log('success');
 				},
 				error: 		function() {
-					console.log('error');
 				}
 			});
 		},
 
 		highlightText: 	function(e) {
 			$(e.target).addClass('highlight-annotation');
+		},
+
+		triggerHighlight: function(e) {
+			this.highlightText(e);
 			this.vent.trigger('annotationHover', $(e.target));
 		},
 
 		unhighlightText: 	function(e) {
 			$(e.target).removeClass('highlight-annotation');
+		},
+
+		triggerUnhighlight: function(e) {
+			this.unhighlightText(e);
 			this.vent.trigger('annotationHoverOff', $(e.target));
 		},
+
 
 		annotationClicked: 	function(e) {
 			this.vent.trigger('annotationClicked', e.target);

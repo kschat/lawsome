@@ -14,7 +14,7 @@ define([
 		},
 
 		toJSON: 	function() {
-			return { id: this.get('id'), text: this.get('text') };
+			return { "title": this.get('title'), "text": this.get('text') };
 		},
 
 		getHighlightedText: 	function() {

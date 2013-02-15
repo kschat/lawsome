@@ -478,11 +478,12 @@ class ERestController extends RController
 	 */ 
 	public function doRestUpdate($id, $data) {		
 		$model = $this->saveModel($this->loadOneModel($id), $data);
-    $this->outputHelper(
-      'Record Updated',
-      $model,
-      1
-    );
+    $this->renderJson($model);
+    //$this->outputHelper(
+    //  'Record Updated',
+    //  $model,
+    //  1
+    //);
 	}
 	
 	/**

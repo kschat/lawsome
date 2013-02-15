@@ -10,7 +10,8 @@ define([
 			this.options.vent.bind('annotationHover', this.annotationHover);
 			this.options.vent.bind('annotationHoverOff', this.annotationHoverOff);
 			this.options.vent.bind('annotationClicked', this.giveAnnotationFocus);
-			console.log($('body'));
+
+			this.vent = this.options.vent;
 		},
 		
 		template: 	_.template(AnnotationTemplate),
@@ -22,7 +23,9 @@ define([
 		},
 
 		events: {
-			'click .load-comments': 	'loadComments'
+			'click .load-comments': 		'loadComments',
+			'mouseover div.accordion-group': 	'highLightText',
+			'mouseout div.accordion-group': 	'unhighLightText'
 		},
 
 		annotationHover: 	function(e) {
@@ -41,7 +44,6 @@ define([
 			//Parse the annotation ID from the clicked elements id attribute
 			var annotationID = $(e).attr('id').split('-')[1];
 			//Show the corrisponding accordion node
-			console.log(annotationID);
 			$('#collapse-' + annotationID).collapse('show');
 		},
 
@@ -55,6 +57,14 @@ define([
 					$('#comment-modal > .modal-body').empty().html(xhr.responseText);
 				}
 			});
+		},
+
+		highLightText: 			function(e) {
+			this.vent.trigger('highlightAnnotation', {target: '#annotation-' + e.currentTarget.id.split('-')[1]});
+		},
+
+		unhighLightText: 			function(e) {
+			this.vent.trigger('unhighlightAnnotation', {target: '#annotation-' + e.currentTarget.id.split('-')[1]});
 		}
 	});
 

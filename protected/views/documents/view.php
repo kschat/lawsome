@@ -52,10 +52,8 @@ $this->beginWidget('bootstrap.widgets.TbModal', array('id'=>'comment-modal'));
 	<div class="document-main-container">
 			<div class="document-container" id="document-<?php echo $model->id; ?>">
 			<div class="document span8">
-				<h2 style="text-align: center;"><?php echo $model->title; ?></h2>
-				<p>
-					<?php echo $model->text; ?>
-				</p>
+				<h2 id="document-title" style="text-align: center;"><?php echo $model->title; ?></h2>
+					<?php echo '<div id="document-text">'; echo $model->text; echo '</div>'; ?>
 			</div>
 
 			<div class="span4">
