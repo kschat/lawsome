@@ -10,6 +10,7 @@ define([
 			this.options.vent.bind('annotationHover', this.annotationHover);
 			this.options.vent.bind('annotationHoverOff', this.annotationHoverOff);
 			this.options.vent.bind('annotationClicked', this.giveAnnotationFocus);
+			console.log($('body'));
 		},
 		
 		template: 	_.template(AnnotationTemplate),
@@ -40,22 +41,20 @@ define([
 			//Parse the annotation ID from the clicked elements id attribute
 			var annotationID = $(e).attr('id').split('-')[1];
 			//Show the corrisponding accordion node
+			console.log(annotationID);
 			$('#collapse-' + annotationID).collapse('show');
 		},
 
 		loadComments: 			function(e) {
-//			console.log($('ext-comment-submit'));
 			$.ajax({
 				type: 'GET',
 				url: 	'/documents/loadComments?annotation-id=' + $(e.target).attr('id'),
 				dataType: 'json',
 				complete: 	function(xhr, statusText) {
-					
-					$('#comment-modal > .modal-body').html(xhr.responseText);
+					$('body').die('click', '#ext-comment-submit');
+					$('#comment-modal > .modal-body').empty().html(xhr.responseText);
 				}
 			});
-
-			//return false;
 		}
 	});
 

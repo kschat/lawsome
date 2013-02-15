@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 2013/02/07 16:46:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /var/www/lawsome/framework/web/CWebApplication.php:286
 Stack trace:
 #0 /var/www/lawsome/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
@@ -13374,3 +13375,5 @@ Stack trace:
 #3 {main}
 REQUEST_URI=/favicon.ico
 ---
+=======
+>>>>>>> 6943b06fc38512f1bea188bc48670803b8f527e8

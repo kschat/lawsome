@@ -3,8 +3,9 @@ define([
 	'underscore',
 	'backbone',
 	'rangy',
-	'router'
-], function($, _, Backbone, rangy, Router) {
+	'router',
+	'bootstrap'
+], function($, _, Backbone, rangy, Router, Bootstrap) {
 	var initialize = function() {
 		var eventAggregator = _.extend({}, Backbone.Events);
 		Router.initialize(eventAggregator);
